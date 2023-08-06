@@ -1,9 +1,6 @@
 <?php
 
-use App\Http\Controllers\Auth\AuthenticatedSessionController;
-use App\Http\Controllers\Auth\PasswordResetLinkController;
-use App\Http\Controllers\Auth\RegisteredUserController;
-use App\Http\Controllers\SampleDataController;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,20 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::middleware('auth:api')->get('/user', function (Request $request) {
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
-});*/
-
-// Sample API route
-Route::get('/profits', [SampleDataController::class, 'profits'])->name('profits');
-
-Route::post('/register', [RegisteredUserController::class, 'apiStore']);
-
-Route::post('/login', [AuthenticatedSessionController::class, 'apiStore']);
-
-Route::post('/forgot_password', [PasswordResetLinkController::class, 'apiStore']);
-
-Route::post('/verify_token', [AuthenticatedSessionController::class, 'apiVerifyToken']);
-
-Route::get('/users', [SampleDataController::class, 'getUsers']);
-
+});
