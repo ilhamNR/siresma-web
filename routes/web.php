@@ -14,16 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('greeting', ['name' => 'Finn']);
-});
-Route::get('visi-misi', function () {
-    return view('greeting', ['name' => 'Finn']);
+    return view('welcome');
 });
 
-Route::get('berita', function () {
-    return view('greeting', ['name' => 'Finn']);
-});
-
-Route::get('timbunan-sampah', function () {
-    return view('greeting', ['name' => 'Finn']);
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
 });
