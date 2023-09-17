@@ -3,3 +3,19 @@
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 @import 'animate.css';
 @import 'simple-line-icons';
+@import 'owl.carousel';
+@import 'magnific-popup';
+
+@import '/resources/public/css/theme.css';
+@import '/resources/public/css/theme-elements.css';
+@import '/resources/public/css/theme-blog.css';
+@import '/resources/public/css/theme-shop.css';
+
+@import '/resources/public/vendor/rs-plugin/css/settings.css';
+@import '/resources/public/vendor/rs-plugin/css/layers.css';
+@import '/resources/public/vendor/rs-plugin/css/navigation.css';
+
+@import '/resources/public/css/demos/demo-digital-agency.css';
+@import '/resources/public/css/skins/skin-digital-agency.css';
+
+@import '/resources/public/css/custom.css';

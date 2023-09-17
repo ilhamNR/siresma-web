@@ -23,32 +23,32 @@
 		{{-- <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css"> --}}
 		{{-- <link rel="stylesheet" href="vendor/animate/animate.compat.css"> --}}
 		{{-- <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css"> --}}
-		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
-		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+		{{-- <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css"> --}}
+		{{-- <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css"> --}}
+		{{-- <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css"> --}}
 
 		<!-- Theme CSS -->
-		<link rel="stylesheet" href="css/theme.css">
-		<link rel="stylesheet" href="css/theme-elements.css">
+		{{-- <link rel="stylesheet" href="css/theme.css"> --}}
+		{{-- <link rel="stylesheet" href="css/theme-elements.css">
 		<link rel="stylesheet" href="css/theme-blog.css">
-		<link rel="stylesheet" href="css/theme-shop.css">
+		<link rel="stylesheet" href="css/theme-shop.css"> --}}
 
 		<!-- Revolution Slider CSS -->
-		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
-		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
-		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+		{{-- <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css"> --}}
+		{{-- <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css"> --}}
+		{{-- <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css"> --}}
 
 		<!-- Demo CSS -->
-		<link rel="stylesheet" href="css/demos/demo-digital-agency.css">
+		{{-- <link rel="stylesheet" href="css/demos/demo-digital-agency.css"> --}}
 
 		<!-- Skin CSS -->
-		<link id="skinCSS" rel="stylesheet" href="css/skins/skin-digital-agency.css">
+		{{-- <link id="skinCSS" rel="stylesheet" href="css/skins/skin-digital-agency.css"> --}}
 
 		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="css/custom.css">
+		{{-- <link rel="stylesheet" href="css/custom.css"> --}}
 
 		<!-- Head Libs -->
-		<script src="vendor/modernizr/modernizr.min.js"></script>
+		{{-- <script src="vendor/modernizr/modernizr.min.js"></script> --}}
         @vite('resources/css/app.css')
         @vite('resources/js/app.js')
 	</head>
