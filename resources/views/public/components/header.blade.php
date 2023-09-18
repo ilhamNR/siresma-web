@@ -19,17 +19,17 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li>
-                                            <a class="nav-link active" href="home.html">
+                                            <a class="nav-link active" href={{route('public.home')}}>
                                                 Beranda
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="visi-misi.html">
+                                            <a class="nav-link" href={{route('public.visionMission')}}>
                                                 Visi Misi
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="berita.html">
+                                            <a class="nav-link" href={{route('public.newsIndex')}}>
                                                 Berita
                                             </a>
                                         </li>
@@ -38,9 +38,9 @@
                                                 Data Pengelolaan Sampah
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="timbunan-sampah.html">Timbunan Sampah</a></li>
-                                                <li><a class="dropdown-item" href="komposisi-sampah.html">Komposisi Sampah</a></li>
-                                                <li><a class="dropdown-item" href="sumber-sampah.html">Sumber Sampah</a></li>
+                                                <li><a class="dropdown-item" href={{route('public.landfillData')}}>Timbunan Sampah</a></li>
+                                                {{-- <li><a class="dropdown-item" href="komposisi-sampah.html">Komposisi Sampah</a></li> --}}
+                                                <li><a class="dropdown-item" href={{route('public.wasteComposition')}}>Sumber Sampah</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown">
@@ -48,13 +48,13 @@
                                                 Fasilitas Pengelolaan Sampah
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="bank-sampah.html">Bank Sampah</a></li>
-                                                <li><a class="dropdown-item" href="rumah-kompos.html">Rumah Kompos</a></li>
-                                                <li><a class="dropdown-item" href="TPS3R.html">TPS3R</a></li>
+                                                <li><a class="dropdown-item" href={{route('public.trashBank')}}>Bank Sampah</a></li>
+                                                {{-- <li><a class="dropdown-item" href="rumah-kompos.html">Rumah Kompos</a></li> --}}
+                                                <li><a class="dropdown-item" href={{route('public.tps3r')}}>TPS3R</a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="contact.html">
+                                            <a class="nav-link" href={{route('public.contactUs')}}>
                                                 Hubungi Kami
                                             </a>
                                         </li>

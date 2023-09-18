@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Public\HomeController;
 use App\Http\Controllers\Public\NewsController;
 use App\Http\Controllers\Public\VisionController;
+use App\Http\Controllers\Public\FacilityController;
+use App\Http\Controllers\Public\StatisticController;
+use App\Http\Controllers\Public\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,8 +22,20 @@ use App\Http\Controllers\Public\VisionController;
 Route::get('/', [HomeController::class, 'index'])->name('public.home');
 Route::get('visi-misi', [VisionController::class, 'index'])->name('public.visionMission');
 Route::prefix('berita')->group(function () {
-    Route::get('/', [NewsController::class, 'index'])->name('name.newsIndex');
+    Route::get('/', [NewsController::class, 'index'])->name('public.newsIndex');
 });
+
+Route::prefix('data')->group(function () {
+    Route::get('timbunan-sampah', [StatisticController::class, 'landfillData'])->name('public.landfillData');
+    Route::get('komposisi-sampah', [StatisticController::class, 'wasteComposition'])->name('public.wasteComposition');
+});
+
+Route::prefix('fasilitas')->group(function () {
+    Route::get('bank-sampah', [FacilityController::class, 'trashBank'])->name('public.trashBank');
+    Route::get('tps3r', [FacilityController::class, 'tps3r'])->name('public.tps3r');
+});
+
+Route::get('contact-us',[ContactController::class, 'index'])->name('public.contactUs');
 
 
 Route::middleware([

@@ -1,6 +1,6 @@
 @extends('public.components.layout')
 
-@section('content');
+@section('content')
 <div role="main" class="main">
 
     <section class="page-header page-header-modern bg-primary custom-page-header">
