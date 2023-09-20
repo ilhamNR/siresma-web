@@ -26,14 +26,14 @@
                         <div class="row align-items-center h-100">
                             <div class="col mb-5-5 mb-sm-0">
                                 <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="600">
-                                    <span class="d-block custom-stroke-text-effect-1 custom-big-text-2 font-weight-bold">SIPSB</span>
+                                    <span class="d-block custom-stroke-text-effect-1 custom-big-text-2 font-weight-bold">SIRESMA</span>
                                 </div>
                                 <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="800">
-                                    <h1 class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0">SIPSB</h1>
+                                    <h1 class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0">SIRESMA</h1>
                                 </div>
-                                <p class="text-color-dark font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Sistem Informasi Pengelolaan</p>
-                                <p class="text-color-dark font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Sampah Kecamatan</p>
-                                <p class="text-color-dark font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Semarang Barat</p>
+                                <p class="text-color-dark font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Sistem Resik Mandiri</p>
+                                <p class="text-color-dark font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Kelurahan Sambiroto</p>
+                                <p class="text-color-dark font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Kecamatan Tembalang</p>
                             </div>
                         </div>
                     </div>
@@ -58,14 +58,14 @@
                         <div class="row align-items-center h-100">
                             <div class="col mb-5-5 mb-sm-0 text-end">
                                 <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="600">
-                                    <span class="d-block custom-stroke-text-effect-1 text-11 text-sm-15 line-height-1 positive-ls-2 font-weight-bold mb-1">SIPSB</span>
+                                    <span class="d-block custom-stroke-text-effect-1 text-11 text-sm-15 line-height-1 positive-ls-2 font-weight-bold mb-1">SIRESMA</span>
                                 </div>
                                 <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="800">
-                                    <h1 class="text-color-light font-weight-bold positive-ls-3 text-12 text-sm-17 line-height-1 mb-3">SIPSB</h1>
+                                    <h1 class="text-color-light font-weight-bold positive-ls-3 text-12 text-sm-17 line-height-1 mb-3">SIRESMA</h1>
                                 </div>
-                                <p class="text-color-primary font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Sistem Informasi Pengelolaan</p>
-                                <p class="text-color-primary font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Sampah Kecamatan</p>
-                                <p class="text-color-primary font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Semarang Barat</p>
+                                <p class="text-color-primary font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Sistem Resik Mandiri</p>
+                                <p class="text-color-primary font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Kelurahan Sambiroto</p>
+                                <p class="text-color-primary font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">Kecamatan Tembalang</p>
                             </div>
                         </div>
                     </div>

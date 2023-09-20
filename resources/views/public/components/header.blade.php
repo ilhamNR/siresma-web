@@ -6,8 +6,8 @@
                     <div class="header-row">
                         <div class="header-logo text-center">
                             <a href="index.html">
-                                <img alt="SIPSB" width="50" height="50" src="img/sipsb.png">
-                                <strong class="d-block text-color-light">SIPSB</strong>
+                                <img alt="SIPSB" width="50" height="50" src="img/siresma.png">
+                                <strong class="d-block text-color-light">SIRESMA</strong>
                             </a>
                         </div>
                     </div>

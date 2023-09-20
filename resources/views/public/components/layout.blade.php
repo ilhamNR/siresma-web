@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<title>SIPSB</title>
+		<title>SIRESMA</title>
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/sipsb.ico" type="image/x-icon" />

@@ -5,7 +5,7 @@
                 <a href="index.html" class="text-decoration-none">
                     <img src="img/sipsb.png" width="125" height="35" class="img-fluid" alt="Footer Logo" />
                 </a>
-                <strong class="d-block text-color-dark">SIPSB</strong>
+                <strong class="d-block text-color-dark">SIRESMA</strong>
             </div>
             <div class="col-lg-3">
                 <h4 class="font-weight-bold text-color-dark">About Us</h4>
