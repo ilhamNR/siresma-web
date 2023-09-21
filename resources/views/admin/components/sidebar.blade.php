@@ -2,7 +2,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
       <a href="../../index3.html" class="brand-link">
-          <img src="../../img/Logo PPKO-01.svg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+          <img src="{{url('img/Logo PPKO-01.svg')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
               style="opacity: .8">
           <span class="brand-text font-weight-light">Siresma Admin</span>
       </a>
@@ -12,7 +12,7 @@
           <!-- Sidebar user (optional) -->
           <div class="user-panel mt-3 pb-3 mb-3 d-flex">
               <div class="image">
-                  <img src="../../img/blank.png" class="img-circle elevation-2" alt="User Image">
+                  <img src="{{url('img/blank.png')}}" class="img-circle elevation-2" alt="User Image">
               </div>
               <div class="info">
                   <a href="#" class="d-block">Alexander Pierce</a>
@@ -354,7 +354,15 @@
                     <a href="{{ route('admin.dashboard') }}" class="nav-link">
                         <i class="nav-icon fas fa-chart-simple"></i>
                         <p>
-                            Waste Statistic
+                            Statistik Sampah
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('admin.dashboard') }}" class="nav-link">
+                        <i class="nav-icon fas fa-newspaper"></i>
+                        <p>
+                            Berita
                         </p>
                     </a>
                 </li>

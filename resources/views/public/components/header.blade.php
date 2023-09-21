@@ -7,7 +7,7 @@
                     <div class="header-row">
                         <div class="header-logo text-center">
                             <a href="index.html">
-                                <img alt="SIPSB" width="50" height="50" src="img/Logo Siresma_2-01.svg">
+                                <img alt="SIPSB" width="50" height="50" src="{{url('img/Logo Siresma_2-01.svg')}}">
                                 <strong class="d-block text-color-light">SIRESMA</strong>
                             </a>
                         </div>

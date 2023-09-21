@@ -19,6 +19,7 @@
 <body class="hold-transition sidebar-mini">
     <!-- Site wrapper -->
     <div class="wrapper">
+ @include('admin.components.preloader')
         @include('admin.components.navbar')
 
         @include('admin.components.sidebar')
