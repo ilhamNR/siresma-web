@@ -26,7 +26,7 @@
                 <!-- small box -->
                 <div class="small-box bg-success">
                   <div class="inner">
-                    <h3>53<sup style="font-size: 20px">%</sup></h3>
+                    <h3><sup style="font-size: 20px">Rp</sup>1.000.000</h3>
 
                     <p>Jumlah Pendapatan</p>
                   </div>
