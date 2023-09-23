@@ -8,6 +8,8 @@ use App\Http\Controllers\Public\FacilityController;
 use App\Http\Controllers\Public\StatisticController;
 use App\Http\Controllers\Public\ContactController;
 
+use App\Http\Controllers\Admin\UserController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -47,6 +49,9 @@ Route::middleware([
         Route::get('/dashboard', function () {
             return view('admin.dashboard');
         })->name('admin.dashboard');
+        Route::prefix('/users')->group(function(){
+            Route::get('nasabah', [UserController::class, 'indexNasabah'])->name('admin.nasabah');
+        });
     });
 
 });
