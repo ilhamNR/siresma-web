@@ -30,7 +30,7 @@ class AppUser extends Model
      */
     public function trashBank()
     {
-        return $this->belongsTo('App\Models\TrashBank');
+        return $this->belongsTo('App\Models\AppTrashBank');
     }
 
     /**
