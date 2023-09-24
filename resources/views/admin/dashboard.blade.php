@@ -1,6 +1,6 @@
 @extends('admin.components.layout')
 
-
+@vite('resources/js/admin/dashboard.js')
 @section('content')
     <!-- Main content -->
     <section class="content">

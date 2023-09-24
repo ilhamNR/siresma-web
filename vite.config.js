@@ -9,7 +9,10 @@ export default defineConfig({
                 'resources/css/admin.css',
                 'resources/js/app.js',
                 'resources/css/admin/main.css',
-                'resources/js/admin/main.js'
+                'resources/js/admin/main.js',
+                'resources/js/admin/dashboard.js',
+                'resources/css/admin/nasabah.css',
+                'resources/js/admin/nasabah.js'
             ],
             refresh: [
                 ...refreshPaths,

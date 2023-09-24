@@ -1,6 +1,7 @@
 @extends('admin.components.layout')
 
 @vite('resources/js/admin/nasabah.js')
+@vite('resources/css/admin/nasabah.css')
 @section('content')
     <!-- Main content -->
     <section class="content">
@@ -14,7 +15,7 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                  <table id="example1" class="table table-bordered table-striped">
+                  <table id="nasabahTable" data-route="{{ route('admin.nasabah')}}" class="table table-bordered table-striped">
                     <thead>
                     <tr>
                       <th>Nama</th>
@@ -24,8 +25,6 @@
                       <th>Aksi</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    </tbody>
                     <tfoot>
                     <tr>
                         <th>Nama</th>
