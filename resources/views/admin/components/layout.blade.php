@@ -12,7 +12,7 @@
     <!-- Font Awesome -->
     {{-- <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css"> --}}
     <!-- Theme style -->
-    @vite('resources/css/admin-main.css')
+    @vite('resources/css/admin/main.css')
     {{-- <link rel="stylesheet" href="../../dist/css/adminlte.min.css"> --}}
 </head>
 
@@ -64,7 +64,7 @@
     </div>
     <!-- ./wrapper -->
 
-    @vite('resources/js/admin-main.js')
+    @vite('resources/js/admin/main.js')
     {{-- <!-- jQuery -->
 <script src="../../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->

@@ -8,6 +8,6 @@ use App\Http\Controllers\Controller;
 class UserController extends Controller
 {
     public function indexNasabah(){
-        return view ('admin.users.nasabah');
+        return view('admin.users.nasabah');
     }
 }
