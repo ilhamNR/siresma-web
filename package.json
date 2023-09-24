@@ -23,6 +23,7 @@
         "animate.css": "^4.1.1",
         "bootstrap": "^5.3.2",
         "chart.js": "^2.9.4",
+        "datatables": "^1.10.18",
         "ionicons": "^2.0.1",
         "jquery": "^3.7.1",
         "magnific-popup": "^1.1.0",
