@@ -1,6 +1,8 @@
 import $ from "jquery";
 // import 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap';
+import 'datatables.net-buttons-bs4';
+import 'datatables.net-responsive-bs4';
 import DataTable from 'datatables.net';
 
 $(function() {
@@ -59,6 +61,8 @@ $(function() {
                     `;
                 }
             }
-        ]
-    });
+        ],
+        responsive: true, "lengthChange": false, "autoWidth": false,
+        buttons: ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#nasabahTable_wrapper .col-md-6:eq(0)');
 });
