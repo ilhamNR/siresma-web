@@ -9,7 +9,7 @@
 		<title>SIRESMA</title>
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/sipsb.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="img/Logo Siresma_2-01.svg" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->

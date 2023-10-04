@@ -57,6 +57,12 @@
                                             class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0">
                                             SIRESMA</h1>
                                     </div>
+                                    <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
+                                        data-appear-animation-delay="800">
+                                        <h1
+                                            class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0">
+                                            SIRESMA</h1>
+                                    </div>
                                     <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
                                         data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
                                         Sistem Resik Mandiri</p>
@@ -118,7 +124,8 @@
                                     <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
                                         data-appear-animation-delay="800">
                                         <h1
-                                            class="text-color-light font-weight-bold positive-ls-3 text-12 text-sm-17 line-height-1 mb-3">
+                                            class="text-color-light font-weight-bo
+                                            ld positive-ls-3 text-12 text-sm-17 line-height-1 mb-3">
                                             SIRESMA</h1>
                                     </div>
                                     <p class="text-color-primary font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation"
