@@ -3,6 +3,7 @@ import $ from "jquery";
 import 'bootstrap';
 import 'datatables.net-buttons-bs4';
 import 'datatables.net-responsive-bs4';
+import Swal from 'sweetalert2'
 import DataTable from 'datatables.net';
 
 $(function() {
@@ -55,7 +56,7 @@ $(function() {
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Lihat Profil</a>
                                 <a class="dropdown-item" href="#">Edit</a>
-                                <a class="dropdown-item" href="#">Hapus</a>
+                                <a class="dropdown-item delete-button" data-id="`+data+`" href="#">Hapus</a>
                             </div>
                         </div>
                     `;
@@ -65,4 +66,28 @@ $(function() {
         responsive: true, "lengthChange": false, "autoWidth": false,
         buttons: ["copy", "csv", "excel", "pdf", "print", "colvis"]
     }).buttons().container().appendTo('#nasabahTable_wrapper .col-md-6:eq(0)');
+});
+
+ // Event delegation for the "Hapus" button
+ $('#nasabahTable').on('click', '.delete-button', function () {
+    // Get the value from the data-id attribute
+    const id = $(this).data('id');
+    Swal.fire({
+        title: 'Hapus data',
+        text: 'Apakah Anda yakin ingin menghapus data dengan ID ' + id + '?',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+          )
+        }
+      })
+
 });
