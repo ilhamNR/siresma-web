@@ -1,14 +1,15 @@
 <header id="header" class="header-transparent header-effect-shrink"
-    data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
-    <div class="header-body border-top-0 bg-dark box-shadow-none">
+    data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}"
+    style="background-color: #3DD679;">
+    <div class="header-body border-top-0  border-bottom-5 box-shadow-5" style="background-color: #3DD679;"">
         <div class="header-container container">
             <div class="header-row">
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo text-center">
-                            <a href="index.html">
-                                <img alt="SIPSB" width="50" height="50" src="{{url('img/Logo Siresma_2-01.svg')}}">
-                                <strong class="d-block text-color-light">SIRESMA</strong>
+                            <a href="{{ route('public.home') }}">
+                                <img alt="SIRESMA" width="50" height="50" src="{{url('img/Logo Siresma_2-01.svg')}}">
+                                
                             </a>
                         </div>
                     </div>
@@ -27,7 +28,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href={{ route('public.visionMission') }}>
+                                            <a class="nav-link" href={{ route('public.tentangIndex') }}>
                                                 Tentang
                                             </a>
                                         </li>
@@ -49,23 +50,22 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle">
-                                                Fasilitas Pengelolaan Sampah
+                                        <li>
+                                            <a class="nav-link" href={{ route('public.aplikasiIndex') }}>
+                                                Aplikasi
                                             </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href={{ route('public.trashBank') }}>Bank
-                                                        Sampah</a></li>
-                                                {{-- <li><a class="dropdown-item" href="rumah-kompos.html">Rumah Kompos</a></li> --}}
-                                                <li><a class="dropdown-item" href={{ route('public.tps3r') }}>TPS3R</a>
-                                                </li>
-                                            </ul>
                                         </li>
                                         <li>
                                             <a class="nav-link" href={{ route('public.contactUs') }}>
                                                 Hubungi Kami
                                             </a>
                                         </li>
+                                        <li>
+                                            <a class="nav-link" href={{ route('public.contactUs') }}>
+                                                Akun           
+                                            </a>
+                                        </li>
+        
                                     </ul>
                                 </nav>
                             </div>

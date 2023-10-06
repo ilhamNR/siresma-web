@@ -1,4 +1,4 @@
-<footer id="footer" class="mt-0">
+<footer id="footer" class="mt-0 footer-copyright bg-color-light">
     <div class="container py-5 my-4">
         <div class="row gy-4">
             <div class="col-lg-2 align-self-center mb-4 mb-lg-0 text-center">
@@ -19,15 +19,17 @@
                     Email: <a href="mailto:sipsn@menlhk.go.id" class="text-decoration-none">sipsn@menlhk.go.id</a>
                 </p>
             </div>
-            <div class="col-lg-3">
+            
 
+            <!-- end box FILTER --> <!-- begin box -->
+            <div class="col-7">
+                <img src="img/pemkotsmg.jpg" width="50" height="20" class="img-fluid" alt="Logo pemkot" />
+                <img src="img/bintari.jpg" width="65" height="20" class="img-fluid" alt="Logo pemkot" />
+                <img src="img/tps3r.png" width="70" height="20" class="img-fluid" alt="Logo pemkot" />
+                <img src="img/paragon.png" width="200" height="80" class="img-fluid" alt="Logo pemkot" />
+                <img src="img/kudapan.png" width="65" height="20" class="img-fluid" alt="Logo paragon" />
             </div>
-            <div class="col-lg-3">
-                <img src="img/logo_g3jks.png" width="125" height="35" class="img-fluid" alt="Logo G3JKS" />
-                <img src="img/logo_bs.png" width="125" height="35" class="img-fluid" alt="Logo BS" />
-                <img src="img/logo_ksp.png" width="125" height="35" class="img-fluid" alt="Logo KSP" />
-                <img src="img/logo_gnpsdr.png" width="125" height="35" class="img-fluid" alt="Logo GNPSDR" />
-            </div>
+
         </div>
     </div>
     <div class="footer-copyright bg-color-dark-scale-2">

@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Public\HomeController;
 use App\Http\Controllers\Public\NewsController;
+use App\Http\Controllers\Public\TentangController;
+use App\Http\Controllers\Public\AplikasiController;
 use App\Http\Controllers\Public\VisionController;
 use App\Http\Controllers\Public\FacilityController;
 use App\Http\Controllers\Public\StatisticController;
@@ -22,11 +24,18 @@ use App\Http\Controllers\Admin\UserController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('public.home');
+Route::get('/bar-chart', 'ChartController@index');
+Route::get('/chart', 'ChartController@index');
 Route::get('visi-misi', [VisionController::class, 'index'])->name('public.visionMission');
 Route::prefix('berita')->group(function () {
     Route::get('/', [NewsController::class, 'index'])->name('public.newsIndex');
 });
-
+Route::prefix('tentang')->group(function () {
+    Route::get('/', [TentangController::class, 'index'])->name('public.tentangIndex');
+});
+Route::prefix('aplikasi')->group(function () {
+    Route::get('/', [AplikasiController::class, 'index'])->name('public.aplikasiIndex');
+});
 Route::prefix('data')->group(function () {
     Route::get('timbunan-sampah', [StatisticController::class, 'landfillData'])->name('public.landfillData');
     Route::get('komposisi-sampah', [StatisticController::class, 'wasteComposition'])->name('public.wasteComposition');

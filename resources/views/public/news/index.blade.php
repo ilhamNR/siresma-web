@@ -44,7 +44,7 @@
                     <div class="card-body d-flex flex-column align-items-stretch">
                         <img src="{{url('img/24Sept.jpg')}}" alt="Gambar 1" class="card-img-top img-center">
                         <h3 class="card-title text-center mt-2">24 September 2023</h3>
-                        <p class="card-text text-justify">Tim PPK Ormawa BEM FIK UDINUS melakukan Pelatihan untuk Memanfaatkan Minyak Jelantah dengan membuat Lilin Aromatherapy</p>
+<p class="card-text text-justify">Tim PPK Ormawa BEM FIK UDINUS melakukan Pelatihan untuk Memanfaatkan Minyak Jelantah dengan membuat Lilin Aromatherapy</p>                        
                         <a href="#" class="btn btn-primary mt-auto">Read More</a>
                     </div>
                 </div>

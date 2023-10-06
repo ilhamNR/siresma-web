@@ -40,29 +40,18 @@
             <div class="row py-3">
                 <div class="col py-5">
 
-                    <h2 class="font-weight-bold text-color-light text-9 mb-4">Say Hello</h2>
-                    <p class="text-4-5 line-height-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec velit magna, consectetur at suscipit eu, dapibus vel odio. Mauris ac nulla at ligula interdum ullamcorper. </p>
+                    <h2 class="font-weight-bold text-color-light text-9 mb-4">Hubungi Kami</h2>
+                    <p class="text-4-5 line-height-7">Selamat datang di halaman Hubungi Kami kami. Kami sangat menghargai minat dan partisipasi Anda. Di sini, Anda dapat menghubungi tim kami untuk bertanya, memberikan umpan balik, atau berbagi pengalaman Anda dengan produk atau layanan kami. Kami selalu siap mendengar dari Anda. </p>
 
                     <div class="row">
                         <div class="col-md-6 py-3">
 
-                            <h2 class="font-weight-bold text-color-light text-6 mb-3">New York</h2>
+                            <h2 class="font-weight-bold text-color-light text-6 mb-3">SEMARANG</h2>
 
-                            <p class="font-weight-semi-bold text-4 text-light mb-3">123 Porto Drive, Suite 10B, Vista, New York, 99123</p>
+                            <p class="font-weight-semi-bold text-4 text-light mb-3">Jl. Imam Bonjol No.207, Pendrikan Kidul Kecamatan : Semarang Tengah Kota : Semarang Provinsi : Jawa Tengah Kode Pos : 50131</p>
                             <ul class="list list-icons mb-0">
-                                <li><i class="far fa-envelope"></i> <a href="mailto:ny@portotheme.com">ny@portotheme.com</a></li>
-                                <li class="mb-0"><i class="fas fa-mobile-alt left-3"></i> <a href="tel:123">800-123-4567</a></li>
-                            </ul>
-
-                        </div>
-                        <div class="col-md-6 py-3">
-
-                            <h2 class="font-weight-bold text-color-light text-6 mb-3">Los Angeles</h2>
-
-                            <p class="font-weight-semi-bold text-4 text-light mb-3">123 Porto Drive, Suite 10A, Vista, California, 98123</p>
-                            <ul class="list list-icons mb-0">
-                                <li><i class="far fa-envelope"></i> <a href="mailto:ny@portotheme.com">la@portotheme.com</a></li>
-                                <li class="mb-0"><i class="fas fa-mobile-alt left-3"></i> <a href="tel:123">800-123-4567</a></li>
+                                <li><i class="far fa-envelope"></i> <a href="siresma.bemfik2023@gmail.com">siresma.bemfik2023@gmail.com</a></li>
+                                <li class="mb-0"><i class="fas fa-mobile-alt left-3"></i> <a href="tel">+6285941396579</a></li>
                             </ul>
 
                         </div>
