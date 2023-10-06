@@ -36,12 +36,16 @@
                 <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
                     data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
                     Sistem Resik Mandiri</p>
-                <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
+                    <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
                     data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
                     Kelurahan Sambiroto</p>
-                <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
-                    data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
-                    Kecamatan Tembalang</p>
+                <div class="d-flex ">
+                    <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
+                        data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
+                        Kecamatan Tembalang</p>
+                        <img src="{{url('img/icon_siresma1.png')}}" alt="{{url('img/icon_siresma1.png')}}" width="105" height="150">
+                </div>
+                    
             </div>
 
             <!-- Add Carousel on the right side -->
