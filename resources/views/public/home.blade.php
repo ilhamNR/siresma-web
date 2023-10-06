@@ -94,15 +94,24 @@
             <div class="row mb-4">
                 <div class="col-md-6 offset-md-3">
                     <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-outline-secondary" type="button">
+                                <i class="fas fa-history"></i>
+                            </button>
+                        </div>
                         <input type="text" class="form-control" placeholder="Cari di SIRESMA">
                         <div class="input-group-append">
                             <button class="btn btn-outline-secondary" type="button">
                                 <i class="fas fa-search"></i>
                             </button>
+                            <button class="btn btn-outline-secondary" type="button">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
+
 
             <br>
             <div class="col-md-12 mb-4">
