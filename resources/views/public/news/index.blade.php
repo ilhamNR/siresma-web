@@ -36,39 +36,46 @@
 
     </section>
 
-    <div class="container py-5 my-4">
-        <div class="row align-items-center">
-            <div class="col-md-6 text-center">
-                <img src="img/demos/digital-agency/generic/generic-2.jpg" class="img-fluid rounded-0 p-relative top-10 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" alt="" />
+    <div class="container d-flex align-items-center justify-content-center" style="height: 100vh;">
+        <div class="row">
+            <!-- Konten Pertama -->
+            <div class="col-md-4">
+                <div class="card h-100 d-flex flex-column">
+                    <div class="card-body d-flex flex-column align-items-stretch">
+                        <img src="{{url('img/24Sept.jpg')}}" alt="Gambar 1" class="card-img-top img-center">
+                        <h3 class="card-title text-center mt-2">24 September 2023</h3>
+                        <p class="card-text text-justify">Tim PPK Ormawa BEM FIK UDINUS melakukan Pelatihan untuk Memanfaatkan Minyak Jelantah dengan membuat Lilin Aromatherapy</p>
+                        <a href="#" class="btn btn-primary mt-auto">Read More</a>
+                    </div>
+                </div>
             </div>
-            <div class="mt-4 mt-md-0 col-md-6">
-
-                <h2 class="font-weight-bold text-color-dark text-7 mb-4">Tiga Kota di Indonesia Dinobatkan sebagai Kota Ramah Lingkungan/Bersih di Asia Tenggara</h2>
-                <p class="text-3-5 line-height-9 mb-4">The Association of Southeast Asian Nations (ASEAN) memberikan penghargaan kepada beberapa kota di Asia Tenggara yang telah melakukan upaya pembangunan berkelanjutan dan ramah lingkungan. Penghargaan yang dinamai “the 5th ASEAN ESC Award and the 4th Certificate of Recognition” merupakan salah satu program kerjasama ASEAN di bawah koordinasi ASEAN Working Group on Environmentally Sustainable Cities (AWGESC). Tujuan program ini adalah untuk mendorong semakin bertumbuhnya kota-kota berkelanjutan di ASEAN dengan memberikan pengakuan dan apresiasi kepada kota-kota yang telah melakukan berbagai inisiatif dan upaya untuk mewujudkan hal tersebut. ... </p>
-                <a href="#" class="custom-read-more d-inline-flex aling-items-center text-color-dark font-weight-bold text-decoration-none">
-                Read More
-                    <img width="27" height="27" class="ms-2" src="img/demos/digital-agency/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark ms-2'}" />
-                </a>
+    
+            <!-- Konten Kedua -->
+            <div class="col-md-4">
+                <div class="card h-100 d-flex flex-column">
+                    <div class="card-body d-flex flex-column align-items-stretch">
+                        <img src="{{url('img/25Sept.jpg')}}" alt="Gambar 2" class="card-img-top img-center">
+                        <h3 class="card-title text-center mt-2">26 September 2023</h3>
+                        <p class="card-text text-justify">TIM PPK Ormawa BEM FIK UDINUS melakukan monitoring dan evaluasi yang diadakan oleh Universitas Dian Nuswantoro yang bertempat di Gedung H lantai 1 Meeting Room UDINUS.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Read More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Konten Ketiga -->
+            <div class="col-md-4">
+                <div class="card h-100 d-flex flex-column">
+                    <div class="card-body d-flex flex-column align-items-stretch">
+                        <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                        <h3 class="card-title text-center mt-2">27 September 2023</h3>
+                        <p class="card-text text-justify">TIM PPK Ormawa BEM FIK UDINUS telah melakukan launching aplikasi SIRESMA yang merupakan aplikasi untuk mendukung kegiatan PPK Ormawa BEM FIK di Kelurahan Sambiroto pada tanggal 27 September 2023 kemarin</p>
+                        <a href="#" class="btn btn-primary mt-auto">Read More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="container py-5 my-4">
-        <div class="row align-items-center">
-            <div class="col-md-6 text-center">
-                <img src="img/demos/digital-agency/generic/generic-2.jpg" class="img-fluid rounded-0 p-relative top-10 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" alt="" />
-            </div>
-            <div class="mt-4 mt-md-0 col-md-6">
-
-                <h2 class="font-weight-bold text-color-dark text-7 mb-4">Babak Baru Program Adipura</h2>
-                <p class="text-3-5 line-height-9 mb-4">Selama masa Pandemi Covid-19 kegiatan penganugrahan Adipura tidak dilaksanakan. Hal ini diputuskan oleh Kementerian Lingkungan Hidup dan Kehutanan (KLHK) dengan pertimbangan tidak ingin menganggu fokus kerja pemerintah daerah pada penanganan pandemi. Kedepan Program Adipura dirancang memasuki babak baru dengan penyempurnaan format dan penilaian menyesuaikan dengan perkembangan dan kebijakan terkini. ... </p>
-                <a href="#" class="custom-read-more d-inline-flex aling-items-center text-color-dark font-weight-bold text-decoration-none">
-                Read More
-                    <img width="27" height="27" class="ms-2" src="img/demos/digital-agency/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark ms-2'}" />
-                </a>
-            </div>
-        </div>
-    </div>
+    
 
 </div>
 
