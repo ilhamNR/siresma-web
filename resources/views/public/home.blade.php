@@ -157,36 +157,40 @@
         <div class="container text-center py-5 my-4">
             <div class="col text-center">
                 <h2 class="text-color-dark font-weight-bold text-9 mb-4 appear-animation"
+                    data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">TENTANG SIRESMA</h2>
+            </div>
+            <div class="col text-center">
+                <h3 class="text-color-dark  text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorterPlus"
+                    data-appear-animation-delay="600">Dengan fokus utama pada pengelolaan bank sampah dan penyederhanaan proses pilah sampah untuk masyarakat Kelurahan Sambiroto, 
+                    Tembalang, Kota Semarang, kami hadirkan solusi terintegrasi yang memikat untuk membantu Anda mengelola sampah dan tabungan
+                    sampah Anda dengan lebih efisien. Serta memantau data timbunan sampah yang ada pertiap periode,</h3>
+            </div>
+            <div class="col text-center">
+                <h2 class="text-color-dark font-weight-bold text-9 mb-4 appear-animation"
                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">CAPAIAN KINERJA
                     PENGELOLAAN SAMPAH</h2>
             </div>
             <div class="col text-center">
                 <h3 class="text-color-dark  text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorterPlus"
-                    data-appear-animation-delay="600">Capaian Kinerja Pengelolaan Sampah adalah Capaian Pengurangan dan
-                    Penanganan Sampah Rumah Tangga dan Sampah Sejenis Sampah Rumah Tangga.</h3>
-            </div>
-            <div class="col text-center">
-                <h3 class="text-color-dark  text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorterPlus"
-                    data-appear-animation-delay="600">Data capaian dibawah ini adalah hasil dari penginputan data yang
-                    dilakukan oleh 200 Kabupaten/kota se-Indonesia pada tahun 2023</h3>
+                    data-appear-animation-delay="600">Data Capaian Dibawah ini adalah hasil dari penginputan data yang dilakukan oleh  Kelurahan Sambiroto, Kecamatan Tembalang,Kota Semarang</h3>
             </div>
             <div class="row counters text-dark mb-4 mt-4 justify-content-center">
                 <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
                     <div class="counter">
                         <strong data-to="30" data-append="%" class="text-5 mb-1">0</strong>
-                        <label class="font-weight-medium text-4 opacity-5">Timbulan Sampah (ton / Tahun)</label>
+                        <label class="font-weight-medium text-4 opacity-5">Timbulan Sampah (Kg / Bulan)</label>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
                     <div class="counter">
                         <strong data-to="24" data-append="%" class="text-5 mb-1">0</strong>
-                        <label class="font-weight-medium text-4 opacity-5">Pengurangan Sampah (ton / Tahun)</label>
+                        <label class="font-weight-medium text-4 opacity-5">Pengurangan Sampah (Kg / Bulan)</label>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3 mb-4 mb-sm-0">
                     <div class="counter">
                         <strong data-to="200" data-append="%" class="text-5 mb-1">0</strong>
-                        <label class="font-weight-medium text-4 opacity-5">Penanganan Sampah (ton / Tahun)</label>
+                        <label class="font-weight-medium text-4 opacity-5">Penanganan Sampah (Kg / Bulan)</label>
                     </div>
                 </div>
             </div>
@@ -194,13 +198,13 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="counter">
                         <strong data-to="20" data-append="%" class="text-5 mb-1">0</strong>
-                        <label class="font-weight-medium text-4 opacity-5">Sampah Terkelola (ton / Tahun)</label>
+                        <label class="font-weight-medium text-4 opacity-5">Sampah Terkelola (Kg / Bulan)</label>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="counter">
                         <strong data-to="20" data-append="%" class="text-5 mb-1">0</strong>
-                        <label class="font-weight-medium text-4 opacity-5">Sampah Tidak Terkelola (ton / Tahun)</label>
+                        <label class="font-weight-medium text-4 opacity-5">Sampah Tidak Terkelola (Kg / Bulan)</label>
                     </div>
                 </div>
             </div>
