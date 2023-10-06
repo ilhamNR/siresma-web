@@ -41,9 +41,59 @@
             <div class="card"> <!-- begin box -->
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-sm" style="height: 40vh !important"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                            <canvas id="chart" style="display: block; width: 1086px; height: 131px;" class="chartjs-render-monitor" width="1086" height="131"></canvas>
-                        </div>
+                    <svg width="800" height="400">
+        <!-- Garis sumbu x -->
+        <line x1="50" y1="750" x2="750" y2="750" style="stroke:black;stroke-width:2" />
+
+        <!-- Garis sumbu y -->
+        <line x1="50" y1="50" x2="50" y2="350" style="stroke:black;stroke-width:2" />
+
+        <!-- Label sumbu x -->
+        <text x="100" y="380" font-family="Arial" font-size="14" fill="black">Jan</text>
+        <text x="200" y="380" font-family="Arial" font-size="14" fill="black">Feb</text>
+        <text x="300" y="380" font-family="Arial" font-size="14" fill="black">Mar</text>
+        <text x="400" y="380" font-family="Arial" font-size="14" fill="black">Apr</text>
+        <text x="500" y="380" font-family="Arial" font-size="14" fill="black">May</text>
+        <text x="600" y="380" font-family="Arial" font-size="14" fill="black">Jun</text>
+        <text x="700" y="380" font-family="Arial" font-size="14" fill="black">Jul</text>
+        <text x="800" y="380" font-family="Arial" font-size="14" fill="black">Aug</text>
+        <text x="900" y="380" font-family="Arial" font-size="14" fill="black">Sep</text>
+        <text x="1000" y="380" font-family="Arial" font-size="14" fill="black">Oct</text>
+        <text x="1100" y="380" font-family="Arial" font-size="14" fill="black">Nov</text>
+        <text x="1200" y="380" font-family="Arial" font-size="14" fill="black">Dec</text>
+
+        <!-- Label sumbu y -->
+        <text x="20" y="70" font-family="Arial" font-size="14" fill="black">80</text>
+        <text x="20" y="145" font-family="Arial" font-size="14" fill="black">60</text>
+        <text x="20" y="215" font-family="Arial" font-size="14" fill="black">40</text>
+        <text x="20" y="290" font-family="Arial" font-size="14" fill="black">20</text>
+        <text x="20" y="370" font-family="Arial" font-size="14" fill="black">0</text>
+        <!-- Batang-batang -->
+        <!-- Data Jan -->
+        <rect x="100" y="250" width="30" height="100" fill="blue" />
+        <!-- Data Feb -->
+        <rect x="200" y="200" width="30" height="150" fill="blue" />
+        <!-- Data Mar -->
+        <rect x="300" y="300" width="30" height="50" fill="blue" />
+        <!-- Data Apr -->
+        <rect x="400" y="100" width="30" height="250" fill="blue" />
+        <!-- Data May -->
+        <rect x="500" y="300" width="30" height="50" fill="blue" />
+        <!-- Data Jun -->
+        <rect x="600" y="200" width="30" height="150" fill="blue" />
+        <!-- Data Jul -->
+        <rect x="700" y="50" width="30" height="300" fill="blue" />
+        <!-- Data Aug -->
+        <rect x="800" y="150" width="30" height="200" fill="blue" />
+        <!-- Data Sep -->
+        <rect x="900" y="250" width="30" height="100" fill="blue" />
+        <!-- Data Oct -->
+        <rect x="1000" y="300" width="30" height="50" fill="blue" />
+        <!-- Data Nov -->
+        <rect x="1100" y="150" width="30" height="200" fill="blue" />
+        <!-- Data Dec -->
+        <rect x="1200" y="70" width="30" height="280" fill="blue" />
+    </svg>
                     </div>
                 </div>
             </div>

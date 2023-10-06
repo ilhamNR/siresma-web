@@ -22,6 +22,8 @@ use App\Http\Controllers\Admin\UserController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('public.home');
+Route::get('/bar-chart', 'ChartController@index');
+Route::get('/chart', 'ChartController@index');
 Route::get('visi-misi', [VisionController::class, 'index'])->name('public.visionMission');
 Route::prefix('berita')->group(function () {
     Route::get('/', [NewsController::class, 'index'])->name('public.newsIndex');

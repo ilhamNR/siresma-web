@@ -189,7 +189,7 @@
                 </div>
                 <div class="col-sm-6 col-lg-3 mb-4 mb-sm-0">
                     <div class="counter">
-                        <strong data-to="200" data-append="%" class="text-5 mb-1">0</strong>
+                        <strong data-to="76" data-append="%" class="text-5 mb-1">0</strong>
                         <label class="font-weight-medium text-4 opacity-5">Penanganan Sampah (Kg / Bulan)</label>
                     </div>
                 </div>
