@@ -43,7 +43,8 @@
                     <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
                         data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
                         Kecamatan Tembalang</p>
-                        <img src="{{url('img/icon_siresma1.png')}}" alt="{{url('img/icon_siresma1.png')}}" width="105" height="150">
+                        <img src="{{url('img/maskot_siresma1.png')}}" alt="{{url('img/icon_siresma1.png')}}" width="105" height="150" appear-animation"
+                        data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1000">
                 </div>
                     
             </div>
@@ -91,6 +92,7 @@
 
         <div class="container text-center py-5 my-4">
             <div class="col text-center">
+                <br>
                 <h2 class="text-color-dark font-weight-bold text-9 mb-4 appear-animation"
                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">E-COMMERCE SIRESMA</h2>
             </div>

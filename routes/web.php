@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Public\HomeController;
 use App\Http\Controllers\Public\NewsController;
 use App\Http\Controllers\Public\TentangController;
+use App\Http\Controllers\Public\AplikasiController;
 use App\Http\Controllers\Public\VisionController;
 use App\Http\Controllers\Public\FacilityController;
 use App\Http\Controllers\Public\StatisticController;
@@ -31,6 +32,9 @@ Route::prefix('berita')->group(function () {
 });
 Route::prefix('tentang')->group(function () {
     Route::get('/', [TentangController::class, 'index'])->name('public.tentangIndex');
+});
+Route::prefix('aplikasi')->group(function () {
+    Route::get('/', [AplikasiController::class, 'index'])->name('public.aplikasiIndex');
 });
 Route::prefix('data')->group(function () {
     Route::get('timbunan-sampah', [StatisticController::class, 'landfillData'])->name('public.landfillData');

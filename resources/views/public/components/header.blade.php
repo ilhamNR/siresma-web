@@ -51,7 +51,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href={{ route('public.contactUs') }}>
+                                            <a class="nav-link" href={{ route('public.aplikasiIndex') }}>
                                                 Aplikasi
                                             </a>
                                         </li>
