@@ -1,157 +1,88 @@
 @extends('public.components.layout')
 
 @section('content')
+
     <div role="main" class="main">
 
-        <div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center custom-dots-style-1 dots-light show-dots-hover show-dots-xs show-dots-sm show-dots-md nav-style-1 nav-inside nav-inside-plus nav-light nav-lg nav-font-size-lg show-nav-hover bg-color-quaternary custom-slider-container mb-0"
-            data-plugin-options="{'autoplay': false, 'autoplayTimeout': 7000}"
-            data-dynamic-height="['780px','780px','780px','780px','510px']" style="height: 780px;">
-            <div class="owl-stage-outer">
-                <div class="owl-stage">
+    <div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center custom-dots-style-1 dots-light show-dots-hover show-dots-xs show-dots-sm show-dots-md nav-style-1 nav-inside nav-inside-plus nav-light nav-lg nav-font-size-lg show-nav-hover custom-slider-container mb-0"
+    data-plugin-options="{'autoplay': false, 'autoplayTimeout': 7000}"
+    data-dynamic-height="['780px','780px','780px','780px','510px']"
+    style="height: 780px; background-color: #3DD679 !important;">
+        <div class="owl-stage-outer">
+            
+                
+            ]<div class="container position-relative h-100 z-index-1 mt-4">
+        <div class="row align-items-center h-100">
+            <div class="col-md-6 mb-5-5 mb-sm-0">
+                <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
+                    data-appear-animation-delay="800">
+                    <h1 class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0"
+                        style="font-family: Poppins;">
+                        SIRESMA
+                    </h1>
+                </div>
+                <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
+                    data-appear-animation-delay="600">
+                    <span class="d-block custom-stroke-text-effect-1 custom-big-text-2 font-weight-bold"
+                        style="font-family: 'Poppins', sans-serif;">SIRESMA</span>
+                </div>
+                <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
+                    data-appear-animation-delay="800">
+                    <h1 class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0"
+                        style="font-family: Poppins;">
+                        SIRESMA
+                    </h1>
+                </div>
+                <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
+                    data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
+                    Sistem Resik Mandiri</p>
+                <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
+                    data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
+                    Kelurahan Sambiroto</p>
+                <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
+                    data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
+                    Kecamatan Tembalang</p>
+            </div>
 
-                    <!-- Carousel Slide 1 -->
-                    <div class="owl-item position-relative overflow-hidden">
-                        <img src="img/custom-divider-1.png" class="img-fluid slider-right" alt="" />
-                        <div
-                            class="custom-svg-style-1 svg-fill-color-primary position-absolute top-0 left-50pct transform3dx-n50 h-100 z-index-0">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                x="0px" y="0px" viewBox="0 0 1920 799" xml:space="preserve"
-                                preserveAspectRatio="none" width="100%" height="100%"
-                                data-plugin-float-element-svg="true">
-                                <path id="svg_1"
-                                    d="m803,799c-0.65,-17.51 -0.69,-41.58 2,-70c7.66,-80.82 31.97,-139.52 47,-175c30.86,-72.87 67.88,-12.83 89,-152c17.86,-22.98 84.33,-105.42 201,-174c34.75,-20.42 121.02,-67.28 243,-90c48.07,-8.95 141.2,-21.52 256,-4c123.54,18.85 208.91,62.88 228,73c21.42,11.35 38.74,22.03 51,30c0,-79 0,-158 0,-237c-640,0 -1280,0 -1920,0c0,266.33 0,532.67 0,799c267.67,0 535.33,0 803,0z"
-                                    fill="#48C97F" />
-                                <circle id="svg_2" r="7.5" cy="539.5" cx="209.5" fill="#FFF"
-                                    opacity="0.2" data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}" />
-                                <circle id="svg_3" r="12" cy="211" cx="268" fill="#FFF"
-                                    opacity="0.2" data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.4, 'transition': true, 'transitionDuration': 2000, 'isInsideSVG': true}" />
-                                <circle id="svg_4" r="17" cy="144" cx="1864" fill="#FFF"
-                                    opacity="0.2" data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.6, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}" />
-                                <path id="svg_5"
-                                    d="m982,356c24.33,-22.33 48.67,-44.67 73,-67c-1.91,-2.73 -5.1,-6.6 -10,-10c-7.11,-4.93 -13.93,-6.15 -19,-7c-5.42,-0.91 -14.32,-2.3 -25,1c-4.46,1.38 -16.54,5.83 -25,18c-5.85,8.41 -7.29,16.65 -8,21c-0.51,3.13 -1.54,9.79 0,18c2.48,13.19 10.04,22.01 14,26z"
-                                    fill="#FFF" opacity="0.2" style="fill: #FFF !important;" />
-                                <circle id="svg_6" r="28.5" cy="326.74992" cx="327.75073" stroke-miterlimit="10"
-                                    stroke-width="3" stroke="6CD499" fill="none" />
-                                <circle opacity="0.2" stroke="#ffffff" id="svg_8" r="21.5" cy="340.25"
-                                    cx="90.74976" fill="none" data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}" />
-                                <circle stroke="#ffffff" opacity="0.2" id="svg_9" r="14.625" cy="689.625"
-                                    cx="128.87476" fill="none" data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.5, 'transition': true, 'transitionDuration': 2000, 'isInsideSVG': true}" />
-                            </svg>
+            <!-- Add Carousel on the right side -->
+            <div class="col-md-6">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#" data-slide-to="0" class="active"></li>
+                        <li data-target="#" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{url('img/slider1.jpg')}}" alt="Slider 1">
                         </div>
-                        <div class="container position-relative h-100 z-index-1 mt-4">
-                            <div class="row align-items-center h-100">
-                                <div class="col mb-5-5 mb-sm-0">
-                                    <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
-                                        data-appear-animation-delay="600">
-                                        <span
-                                            class="d-block custom-stroke-text-effect-1 custom-big-text-2 font-weight-bold">SIRESMA</span>
-                                    </div>
-                                    <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
-                                        data-appear-animation-delay="800">
-                                        <h1
-                                            class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0">
-                                            SIRESMA</h1>
-                                    </div>
-                                    <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
-                                        data-appear-animation-delay="800">
-                                        <h1
-                                            class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0">
-                                            SIRESMA</h1>
-                                    </div>
-                                    <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
-                                        data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
-                                        Sistem Resik Mandiri</p>
-                                    <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
-                                        data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
-                                        Kelurahan Sambiroto</p>
-                                    <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
-                                        data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
-                                        Kecamatan Tembalang</p>
-                                </div>
-                            </div>
+                        <div class="carousel-item">
+                            <img src="{{url('img/slider2.jpg')}}" alt="Slider 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{url('img/slider3.jpg')}}" alt="Slider 3">
                         </div>
                     </div>
 
-                    <!-- Carousel Slide 2 -->
-                    <div class="owl-item position-relative overflow-hidden">
-                        <img src="img/custom-header-bg.jpg" class="img-fluid custom-bg-slider-left" alt="" />
-                        <div
-                            class="custom-svg-style-1 custom-svg-style-1-variation custom-svg-reverse svg-fill-color-dark position-absolute top-0 left-50pct transform3dx-n50 h-100 z-index-0">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                x="0px" y="0px" viewBox="0 0 1920 799" xml:space="preserve"
-                                preserveAspectRatio="none" width="100%" height="100%"
-                                data-plugin-float-element-svg="true">
-                                <path id="svg_1"
-                                    d="m803,799c-0.65,-17.51 -0.69,-41.58 2,-70c7.66,-80.82 31.97,-139.52 47,-175c30.86,-72.87 67.88,-124.83 89,-152c17.86,-22.98 84.33,-105.42 201,-174c34.75,-20.42 121.02,-67.28 243,-90c48.07,-8.95 141.2,-21.52 256,-4c123.54,18.85 208.91,62.88 228,73c21.42,11.35 38.74,22.03 51,30c0,-79 0,-158 0,-237c-640,0 -1280,0 -1920,0c0,266.33 0,532.67 0,799c267.67,0 535.33,0 803,0z"
-                                    fill="#48C97F" />
-                                <circle id="svg_2" r="7.5" cy="539.5" cx="209.5" fill="#FFF"
-                                    opacity="0.2" data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}" />
-                                <circle id="svg_3" r="12" cy="211" cx="268" fill="#FFF"
-                                    opacity="0.2" data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.4, 'transition': true, 'transitionDuration': 2000, 'isInsideSVG': true}" />
-                                <circle id="svg_4" r="17" cy="144" cx="1864" fill="#FFF"
-                                    opacity="0.2" data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}" />
-                                <path id="svg_5"
-                                    d="m982,356c24.33,-22.33 48.67,-44.67 73,-67c-1.91,-2.73 -5.1,-6.6 -10,-10c-7.11,-4.93 -13.93,-6.15 -19,-7c-5.42,-0.91 -14.32,-2.3 -25,1c-4.46,1.38 -16.54,5.83 -25,18c-5.85,8.41 -7.29,16.65 -8,21c-0.51,3.13 -1.54,9.79 0,18c2.48,13.19 10.04,22.01 14,26z"
-                                    fill="#FFF" opacity="0.2" style="fill: #FFF !important;" />
-                                <circle id="svg_6" r="28.5" cy="326.74992" cx="327.75073"
-                                    stroke-miterlimit="10" stroke-width="3" stroke="6CD499" fill="none"
-                                    data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}" />
-                                <circle opacity="0.2" stroke="#ffffff" id="svg_8" r="21.5" cy="340.25"
-                                    cx="90.74976" fill="none" data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.4, 'transition': true, 'transitionDuration': 2000, 'isInsideSVG': true}" />
-                                <circle stroke="#ffffff" opacity="0.2" id="svg_9" r="14.625" cy="689.625"
-                                    cx="128.87476" fill="none" data-plugin-float-element
-                                    data-plugin-options="{'startPos': 'top', 'speed': 0.5, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}" />
-                            </svg>
-                        </div>
-                        <div class="container position-relative h-100 z-index-1 mt-4">
-                            <div class="row align-items-center h-100">
-                                <div class="col mb-5-5 mb-sm-0 text-end">
-                                    <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
-                                        data-appear-animation-delay="600">
-                                        <span
-                                            class="d-block custom-stroke-text-effect-1 text-11 text-sm-15 line-height-1 positive-ls-2 font-weight-bold mb-1">SIRESMA</span>
-                                    </div>
-                                    <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
-                                        data-appear-animation-delay="800">
-                                        <h1
-                                            class="text-color-light font-weight-bo
-                                            ld positive-ls-3 text-12 text-sm-17 line-height-1 mb-3">
-                                            SIRESMA</h1>
-                                    </div>
-                                    <p class="text-color-primary font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation"
-                                        data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
-                                        Sistem Resik Mandiri</p>
-                                    <p class="text-color-primary font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation"
-                                        data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
-                                        Kelurahan Sambiroto</p>
-                                    <p class="text-color-primary font-weight-bold text-7 text-sm-9 ms-2 mb-3 appear-animation"
-                                        data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
-                                        Kecamatan Tembalang</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    <!-- Controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
-            <div class="owl-nav">
-                <button type="button" role="presentation" class="owl-prev"></button>
-                <button type="button" role="presentation" class="owl-next"></button>
-            </div>
-            <div class="owl-dots mb-5">
-                <button role="button" class="owl-dot active"><span></span></button>
-                <button role="button" class="owl-dot"><span></span></button>
-            </div>
+        </div>
+</div>
+</div>
+            
+           
         </div>
 
         <div class="container text-center py-5 my-4">
@@ -159,14 +90,127 @@
                 <h2 class="text-color-dark font-weight-bold text-9 mb-4 appear-animation"
                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">E-COMMERCE SIRESMA</h2>
             </div>
-            <
-        </div>
+            <br>
+            <div class="row mb-4">
+                <div class="col-md-6 offset-md-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Cari di SIRESMA">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <br>
+            <div class="col-md-12 mb-4">
+    <div class="card" style="box-shadow: -2px 4px 10px 7px rgba(0, 0, 0, 0.2);">
+        <div class="card-body">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                            <div class="card-body">
+                                <h3 class="card-title text-center mt-2">Maggot</h3>
+                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                            <div class="card-body">
+                                <h3 class="card-title text-center mt-2">Maggot</h3>
+                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                            <div class="card-body">
+                                <h3 class="card-title text-center mt-2">Maggot</h3>
+                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                            <div class="card-body">
+                                <h3 class="card-title text-center mt-2">Maggot</h3>
+                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                            <div class="card-body">
+                                <h3 class="card-title text-center mt-2">Maggot</h3>
+                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                            <div class="card-body">
+                                <h3 class="card-title text-center mt-2">Maggot</h3>
+                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                            <div class="card-body">
+                                <h3 class="card-title text-center mt-2">Maggot</h3>
+                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat for more cards -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container py-5 my-4">
             
             </div>
         </div>
-
         <section class="section section-height-3 border-0 m-0" style="background-color: #3DD679;">
             <div class="container py-1">
                 <div class="col">

@@ -1,7 +1,7 @@
 <header id="header" class="header-transparent header-effect-shrink"
     data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}"
     style="background-color: #3DD679;">
-    <div class="header-body border-top-0  box-shadow-none" style="background-color: #3DD679;"">
+    <div class="header-body border-top-0  border-bottom-5 box-shadow-5" style="background-color: #3DD679;"">
         <div class="header-container container">
             <div class="header-row">
                 <div class="header-column">
