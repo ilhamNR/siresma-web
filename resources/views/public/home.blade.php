@@ -157,596 +157,13 @@
         <div class="container text-center py-5 my-4">
             <div class="col text-center">
                 <h2 class="text-color-dark font-weight-bold text-9 mb-4 appear-animation"
-                    data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">TENTANG SIRESMA</h2>
+                    data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">E-COMMERCE SIRESMA</h2>
             </div>
-            <div class="col text-center">
-                <h3 class="text-color-dark  text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorterPlus"
-                    data-appear-animation-delay="600">Dengan fokus utama pada pengelolaan bank sampah dan penyederhanaan proses pilah sampah untuk masyarakat Kelurahan Sambiroto, 
-                    Tembalang, Kota Semarang, kami hadirkan solusi terintegrasi yang memikat untuk membantu Anda mengelola sampah dan tabungan
-                    sampah Anda dengan lebih efisien. Serta memantau data timbunan sampah yang ada pertiap periode,</h3>
-            </div>
-            <div class="col text-center">
-                <h2 class="text-color-dark font-weight-bold text-9 mb-4 appear-animation"
-                    data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">CAPAIAN KINERJA
-                    PENGELOLAAN SAMPAH</h2>
-            </div>
-            <div class="col text-center">
-                <h3 class="text-color-dark  text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorterPlus"
-                    data-appear-animation-delay="600">Data Capaian Dibawah ini adalah hasil dari penginputan data yang dilakukan oleh  Kelurahan Sambiroto, Kecamatan Tembalang,Kota Semarang</h3>
-            </div>
-            <div class="row counters text-dark mb-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                    <div class="counter">
-                        <strong data-to="30" data-append="%" class="text-5 mb-1">0</strong>
-                        <label class="font-weight-medium text-4 opacity-5">Timbulan Sampah (Kg / Bulan)</label>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                    <div class="counter">
-                        <strong data-to="24" data-append="%" class="text-5 mb-1">0</strong>
-                        <label class="font-weight-medium text-4 opacity-5">Pengurangan Sampah (Kg / Bulan)</label>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3 mb-4 mb-sm-0">
-                    <div class="counter">
-                        <strong data-to="76" data-append="%" class="text-5 mb-1">0</strong>
-                        <label class="font-weight-medium text-4 opacity-5">Penanganan Sampah (Kg / Bulan)</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row counters text-dark justify-content-center">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="counter">
-                        <strong data-to="20" data-append="%" class="text-5 mb-1">0</strong>
-                        <label class="font-weight-medium text-4 opacity-5">Sampah Terkelola (Kg / Bulan)</label>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="counter">
-                        <strong data-to="20" data-append="%" class="text-5 mb-1">0</strong>
-                        <label class="font-weight-medium text-4 opacity-5">Sampah Tidak Terkelola (Kg / Bulan)</label>
-                    </div>
-                </div>
-            </div>
+            <
         </div>
 
         <div class="container py-5 my-4">
-            <div class="row">
-                <div class="col">
-                    <div class="col text-center">
-                        <h2 class="text-color-dark font-weight-bold text-9 mb-4 appear-animation"
-                            data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">GRAFIK KOMPOSISI
-                            SAMPAH</h2>
-                    </div>
-
-                    <section id="grafik" class="grafik">
-                        <div class="container">
-
-                            <div class="col text-center">
-                                <h3 class="text-color-dark  text-4 mb-4 appear-animation"
-                                    data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">Grafik
-                                    Komposisi Sampah terbagi 2 yaitu Grafik Komposisi Sampah berdasarkan Jenis Sampah dan
-                                    Grafik Komposisi Sampah berdasarkan Sumber Sampah. Grafik Komposisi Sampah dibawah ini
-                                    adalah Tahun 2022.</h3>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6" style="padding: 10px;">
-                                    <div class="box box-solid" style="box-shadow: 10px 10px 10px rgba(0,0,0,0.5);">
-                                        <div id="chart_komposisi">
-                                            <div style="position: relative;">
-                                                <div style="position: relative; width: 550px; height: 400px;"
-                                                    dir="ltr">
-                                                    <div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"
-                                                        aria-label="A chart."><svg width="550" height="400"
-                                                            style="overflow: hidden;" aria-label="A chart.">
-                                                            <defs id="_ABSTRACT_RENDERER_ID_0">
-                                                                <filter id="_ABSTRACT_RENDERER_ID_2">
-                                                                    <feGaussianBlur in="SourceAlpha" stdDeviation="2">
-                                                                    </feGaussianBlur>
-                                                                    <feOffset dx="1" dy="1"></feOffset>
-                                                                    <feComponentTransfer>
-                                                                        <feFuncA type="linear" slope="0.1"></feFuncA>
-                                                                    </feComponentTransfer>
-                                                                    <feMerge>
-                                                                        <feMergeNode></feMergeNode>
-                                                                        <feMergeNode in="SourceGraphic"></feMergeNode>
-                                                                    </feMerge>
-                                                                </filter>
-                                                            </defs>
-                                                            <rect x="0" y="0" width="550"
-                                                                height="400" stroke="none" stroke-width="0"
-                                                                fill="#ffffff"></rect>
-                                                            <g><text text-anchor="start" x="14" y="55.6"
-                                                                    font-family="Arial" font-size="16" font-weight="bold"
-                                                                    stroke="none" stroke-width="0"
-                                                                    fill="#000000">Komposisi Sampah Berdasarkan Jenis
-                                                                    Sampah</text>
-                                                                <rect x="14" y="42" width="523"
-                                                                    height="16" stroke="none" stroke-width="0"
-                                                                    fill-opacity="0" fill="#ffffff"></rect>
-                                                            </g>
-                                                            <g>
-                                                                <rect x="356" y="77" width="181"
-                                                                    height="164" stroke="none" stroke-width="0"
-                                                                    fill-opacity="0" fill="#ffffff"></rect>
-                                                                <g column-id="Sisa Makanan">
-                                                                    <rect x="356" y="77" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="87.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Sisa
-                                                                            Makanan</text></g>
-                                                                    <circle cx="362" cy="83" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#3366cc">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Kayu/Ranting/Daun">
-                                                                    <rect x="356" y="96" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="106.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0"
-                                                                            fill="#0000ff">Kayu/Ranting/Daun</text></g>
-                                                                    <circle cx="362" cy="102" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#dc3912">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Kertas/Karton">
-                                                                    <rect x="356" y="115" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="125.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0"
-                                                                            fill="#0000ff">Kertas/Karton</text></g>
-                                                                    <circle cx="362" cy="121" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#ff9900">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Plastik">
-                                                                    <rect x="356" y="134" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="144.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Plastik</text>
-                                                                    </g>
-                                                                    <circle cx="362" cy="140" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#109618">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Karet/Kulit">
-                                                                    <rect x="356" y="153" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="163.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0"
-                                                                            fill="#0000ff">Karet/Kulit</text></g>
-                                                                    <circle cx="362" cy="159" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#990099">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Kain">
-                                                                    <rect x="356" y="172" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="182.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Kain</text>
-                                                                    </g>
-                                                                    <circle cx="362" cy="178" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#0099c6">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Kaca">
-                                                                    <rect x="356" y="191" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="201.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Kaca</text>
-                                                                    </g>
-                                                                    <circle cx="362" cy="197" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#dd4477">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Logam">
-                                                                    <rect x="356" y="210" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="220.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Logam</text>
-                                                                    </g>
-                                                                    <circle cx="362" cy="216" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#66aa00">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Lainnya">
-                                                                    <rect x="356" y="229" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="239.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Lainnya</text>
-                                                                    </g>
-                                                                    <circle cx="362" cy="235" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#b82e2e">
-                                                                    </circle>
-                                                                </g>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L176,78A123,123,0,0,1,239.3879019947457,306.40860439596247L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#3366cc">
-                                                                </path><text text-anchor="start" x="247.6577065731223"
-                                                                    y="180.4569743102319" font-family="Arial"
-                                                                    font-size="12" stroke="none" stroke-width="0"
-                                                                    fill="#ffffff">41.4%</text>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L127.86417964947636,87.81014710150863A123,123,0,0,1,176,78L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#b82e2e">
-                                                                </path><text text-anchor="start" x="141.70749627384293"
-                                                                    y="105.63000337126319" font-family="Arial"
-                                                                    font-size="12" stroke="none" stroke-width="0"
-                                                                    fill="#ffffff">6.4%</text>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L107.61077633529955,98.76539682407146A123,123,0,0,1,127.86417964947636,87.81014710150863L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#66aa00">
-                                                                </path>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L95.18946596100992,108.27105312615039A123,123,0,0,1,107.61077633529955,98.76539682407146L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#dd4477">
-                                                                </path>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L81.25349817829196,122.5646738226386A123,123,0,0,1,95.18946596101004,108.27105312615028L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#0099c6">
-                                                                </path>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L72.27010556180223,134.9007639995715A123,123,0,0,1,81.25349817829186,122.56467382263871L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#990099">
-                                                                </path>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L74.73865321941143,270.8222002530813A123,123,0,0,1,72.27010556180223,134.9007639995715L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#109618">
-                                                                </path><text text-anchor="start" x="65.26692564759223"
-                                                                    y="206.8932596774146" font-family="Arial"
-                                                                    font-size="12" stroke="none" stroke-width="0"
-                                                                    fill="#ffffff">18.6%</text>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L141.4023881597873,319.03391569779416A123,123,0,0,1,74.73865321941146,270.82220025308135L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#ff9900">
-                                                                </path><text text-anchor="start" x="102.61204369704467"
-                                                                    y="282.47789544456265" font-family="Arial"
-                                                                    font-size="12" stroke="none" stroke-width="0"
-                                                                    fill="#ffffff">10.9%</text>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L239.3879019947457,306.40860439596247A123,123,0,0,1,141.4023881597873,319.03391569779416L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#dc3912">
-                                                                </path><text text-anchor="start" x="171.47936668918365"
-                                                                    y="305.9333509556703" font-family="Arial"
-                                                                    font-size="12" stroke="none" stroke-width="0"
-                                                                    fill="#ffffff">13.2%</text>
-                                                            </g>
-                                                            <g></g>
-                                                        </svg>
-                                                        <div aria-label="A tabular representation of the data in the chart."
-                                                            style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;">
-                                                            <table>
-                                                                <thead>
-                                                                    <tr>
-                                                                        <th>Komposisi</th>
-                                                                        <th>Nilai</th>
-                                                                    </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td>Sisa Makanan</td>
-                                                                        <td>41.845</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Kayu/Ranting/Daun</td>
-                                                                        <td>13.302</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Kertas/Karton</td>
-                                                                        <td>10.976</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Plastik</td>
-                                                                        <td>18.845</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Karet/Kulit</td>
-                                                                        <td>1.998</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Kain</td>
-                                                                        <td>2.615</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Kaca</td>
-                                                                        <td>2.048</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Logam</td>
-                                                                        <td>3.017</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Lainnya</td>
-                                                                        <td>6.471</td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div style="display: none; position: absolute; top: 410px; left: 560px; white-space: nowrap; font-family: Arial; font-size: 12px; font-weight: bold;"
-                                                    aria-hidden="true">41.845 (41.4%)</div>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 mt-6 mt-md-0" style="padding: 10px; ">
-                                    <div class="box box-solid" style="box-shadow: 10px 10px 10px rgba(0,0,0,0.5);">
-                                        <div id="chart_sumbersampah">
-                                            <div style="position: relative;">
-                                                <div style="position: relative; width: 550px; height: 400px;"
-                                                    dir="ltr">
-                                                    <div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"
-                                                        aria-label="A chart."><svg width="550" height="400"
-                                                            style="overflow: hidden;" aria-label="A chart.">
-                                                            <defs id="_ABSTRACT_RENDERER_ID_1"></defs>
-                                                            <rect x="0" y="0" width="550"
-                                                                height="400" stroke="none" stroke-width="0"
-                                                                fill="#ffffff"></rect>
-                                                            <g><text text-anchor="start" x="14" y="55.6"
-                                                                    font-family="Arial" font-size="16" font-weight="bold"
-                                                                    stroke="none" stroke-width="0"
-                                                                    fill="#000000">Komposisi Sampah Berdasarkan Sumber
-                                                                    Sampah</text>
-                                                                <rect x="14" y="42" width="523"
-                                                                    height="16" stroke="none" stroke-width="0"
-                                                                    fill-opacity="0" fill="#ffffff"></rect>
-                                                            </g>
-                                                            <g>
-                                                                <rect x="356" y="77" width="181"
-                                                                    height="126" stroke="none" stroke-width="0"
-                                                                    fill-opacity="0" fill="#ffffff"></rect>
-                                                                <g column-id="Rumah Tangga">
-                                                                    <rect x="356" y="77" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="87.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Rumah
-                                                                            Tangga</text></g>
-                                                                    <circle cx="362" cy="83" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#3366cc">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Perkantoran">
-                                                                    <rect x="356" y="96" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="106.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0"
-                                                                            fill="#0000ff">Perkantoran</text></g>
-                                                                    <circle cx="362" cy="102" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#dc3912">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Pasar Tradisional">
-                                                                    <rect x="356" y="115" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="125.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Pasar
-                                                                            Tradisional</text></g>
-                                                                    <circle cx="362" cy="121" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#ff9900">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Pusat Perniagaan">
-                                                                    <rect x="356" y="134" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="144.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Pusat
-                                                                            Perniagaan</text></g>
-                                                                    <circle cx="362" cy="140" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#109618">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Fasilitas Publik">
-                                                                    <rect x="356" y="153" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="163.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Fasilitas
-                                                                            Publik</text></g>
-                                                                    <circle cx="362" cy="159" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#990099">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Kawasan">
-                                                                    <rect x="356" y="172" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="182.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Kawasan</text>
-                                                                    </g>
-                                                                    <circle cx="362" cy="178" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#0099c6">
-                                                                    </circle>
-                                                                </g>
-                                                                <g column-id="Lainnya">
-                                                                    <rect x="356" y="191" width="181"
-                                                                        height="12" stroke="none" stroke-width="0"
-                                                                        fill-opacity="0" fill="#ffffff"></rect>
-                                                                    <g><text text-anchor="start" x="373"
-                                                                            y="201.2" font-family="Arial"
-                                                                            font-size="12" stroke="none"
-                                                                            stroke-width="0" fill="#0000ff">Lainnya</text>
-                                                                    </g>
-                                                                    <circle cx="362" cy="197" r="6"
-                                                                        stroke="none" stroke-width="0" fill="#dd4477">
-                                                                    </circle>
-                                                                </g>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L176,78A123,123,0,0,1,260.267613235567,290.5989361520598L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#3366cc">
-                                                                </path><text text-anchor="start" x="253.82755530467284"
-                                                                    y="169.39696338704036" font-family="Arial"
-                                                                    font-size="12" stroke="none" stroke-width="0"
-                                                                    fill="#ffffff">38%</text>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L260.267613235567,290.5989361520598A123,123,0,0,1,230.10254447542184,311.4622771867618L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#dc3912">
-                                                                </path>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L151.95650181782906,80.3728463605149A123,123,0,0,1,176,78L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#dd4477">
-                                                                </path>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L116.36012873541071,93.42637053839256A123,123,0,0,1,151.95650181782906,80.3728463605149L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#0099c6">
-                                                                </path>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L80.47195674339356,123.5184347630746A123,123,0,0,1,116.36012873541071,93.42637053839256L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#990099">
-                                                                </path><text text-anchor="start" x="99.55120549198844"
-                                                                    y="130.72278696257044" font-family="Arial"
-                                                                    font-size="12" stroke="none" stroke-width="0"
-                                                                    fill="#ffffff">6.1%</text>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L73.97062035361665,269.6950193898668A123,123,0,0,1,80.47195674339356,123.5184347630746L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#109618">
-                                                                </path><text text-anchor="start" x="65.46392572931066"
-                                                                    y="201.06213608176503" font-family="Arial"
-                                                                    font-size="12" stroke="none" stroke-width="0"
-                                                                    fill="#ffffff">20.3%</text>
-                                                            </g>
-                                                            <g>
-                                                                <path
-                                                                    d="M176,201L230.10254447542184,311.4622771867618A123,123,0,0,1,73.97062035361662,269.69501938986673L176,201A0,0,0,0,0,176,201"
-                                                                    stroke="#ffffff" stroke-width="1" fill="#ff9900">
-                                                                </path><text text-anchor="start" x="132.7571530203309"
-                                                                    y="301.43040734093216" font-family="Arial"
-                                                                    font-size="12" stroke="none" stroke-width="0"
-                                                                    fill="#ffffff">22.8%</text>
-                                                            </g>
-                                                            <g></g>
-                                                        </svg>
-                                                        <div aria-label="A tabular representation of the data in the chart."
-                                                            style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;">
-                                                            <table>
-                                                                <thead>
-                                                                    <tr>
-                                                                        <th>Sumber Sampah</th>
-                                                                        <th>Nilai</th>
-                                                                    </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td>Rumah Tangga</td>
-                                                                        <td>1,196.2</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Perkantoran</td>
-                                                                        <td>150</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Pasar Tradisional</td>
-                                                                        <td>718.5</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Pusat Perniagaan</td>
-                                                                        <td>638.5</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Fasilitas Publik</td>
-                                                                        <td>192</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Kawasan</td>
-                                                                        <td>155.1</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Lainnya</td>
-                                                                        <td>98.6</td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div style="display: none; position: absolute; top: 410px; left: 560px; white-space: nowrap; font-family: Arial; font-size: 12px;"
-                                                    aria-hidden="true">Lainnya</div>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </section>
-
-                </div>
+            
             </div>
         </div>
 
@@ -764,10 +181,10 @@
                                 <div
                                     class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons rounded-0 mb-3">
                                     <div class="thumb-info-wrapper rounded-0">
-                                        <img src="img/demos/digital-agency/projects/project-1.jpg"
+                                        <img src="{{url('img/24Sept.jpg')}}"
                                             class="img-fluid rounded-0" alt="" />
                                         <div class="thumb-info-action">
-                                            <a href="portfolio-single-wide-slider.html">
+                                            <a href="{{url('img/24Sept.jpg')}}">
                                                 <span class="thumb-info-action-icon thumb-info-action-icon-light"><i
                                                         class="fas fa-plus text-dark"></i></span>
                                             </a>
@@ -775,10 +192,35 @@
                                     </div>
                                 </div>
                                 <h2 class="text-color-light font-weight-semibold text-3 opacity-7 line-height-1 mb-1">
-                                    WEBSITE CREATION - 2022</h2>
+                                24 September 2023 </h2>
                                 <h3 class="text-transform-none font-weight-bold text-5-5 mb-0 pb-2">
-                                    <a href="#" class="text-decoration-none text-color-light opacity-hover-8">Porto
-                                        Digital Agency</a>
+                                    <a href="{{url('img/24Sept.jpg')}}" class="text-decoration-none text-color-light opacity-hover-8">
+                                    Tim PPK Ormawa BEM FIK UDINUS </a>
+                                    <h2 class="text-color-light font-weight-semibold text-3 opacity-7 line-height-1 mb-1">melakukan Pelatihan untuk Memanfaatkan Minyak Jelantah dengan membuat Lilin Aromatherapy</h2>
+                                </h3>
+                                
+                            </div>
+                            <div class="appear-animation" data-appear-animation="fadeInLeftShorterPlus"
+                                data-appear-animation-delay="600">
+                                <div
+                                    class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons rounded-0 mb-3">
+                                    <div class="thumb-info-wrapper rounded-0">
+                                        <img src="{{url('img/25Sept.jpg')}}"
+                                            class="img-fluid rounded-0" alt="" />
+                                        <div class="thumb-info-action">
+                                            <a href="{{url('img/25Sept.jpg')}}">
+                                                <span class="thumb-info-action-icon thumb-info-action-icon-light"><i
+                                                        class="fas fa-plus text-dark"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="text-color-light font-weight-semibold text-3 opacity-7 line-height-1 mb-1">
+                                24 September 2023 </h2>
+                                <h3 class="text-transform-none font-weight-bold text-5-5 mb-0 pb-2">
+                                    <a href="{{url('img/25Sept.jpg')}}" class="text-decoration-none text-color-light opacity-hover-8">
+                                    Tim PPK Ormawa BEM FIK UDINUS </a>
+                                    <h2 class="text-color-light font-weight-semibold text-3 opacity-7 line-height-1 mb-1">melakukan monitoring dan evaluasi yang diadakan oleh Universitas Dian Nuswantoro yang bertempat di Gedung H lantai 1 Meeting Room UDINUS.</h2>
                                 </h3>
                             </div>
                             <div class="appear-animation" data-appear-animation="fadeInLeftShorterPlus"
@@ -786,10 +228,10 @@
                                 <div
                                     class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons rounded-0 mb-3">
                                     <div class="thumb-info-wrapper rounded-0">
-                                        <img src="img/demos/digital-agency/projects/project-2.jpg"
+                                        <img src="{{url('img/27Sept.jpg')}}"
                                             class="img-fluid rounded-0" alt="" />
                                         <div class="thumb-info-action">
-                                            <a href="portfolio-single-wide-slider.html">
+                                            <a href="{{url('img/27Sept.jpg')}}">
                                                 <span class="thumb-info-action-icon thumb-info-action-icon-light"><i
                                                         class="fas fa-plus text-dark"></i></span>
                                             </a>
@@ -797,100 +239,14 @@
                                     </div>
                                 </div>
                                 <h2 class="text-color-light font-weight-semibold text-3 opacity-7 line-height-1 mb-1">
-                                    WEBSITE CREATION - 2022</h2>
+                                27 September 2023</h2>
                                 <h3 class="text-transform-none font-weight-bold text-5-5 mb-0 pb-2">
-                                    <a href="#" class="text-decoration-none text-color-light opacity-hover-8">Porto
-                                        Digital Agency</a>
+                                    <a href="{{url('img/27Sept.jpg')}}" class="text-decoration-none text-color-light opacity-hover-8">
+                                    Tim PPK Ormawa BEM FIK UDINUS </a>
+                                    <h2 class="text-color-light font-weight-semibold text-3 opacity-7 line-height-1 mb-1">telah melakukan launching aplikasi SIRESMA yang merupakan aplikasi untuk mendukung kegiatan PPK Ormawa BEM FIK di Kelurahan Sambiroto pada tanggal 27 September 2023 kemarin</h2>
                                 </h3>
                             </div>
-                            <div class="appear-animation" data-appear-animation="fadeInLeftShorterPlus"
-                                data-appear-animation-delay="800">
-                                <div
-                                    class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons rounded-0 mb-3">
-                                    <div class="thumb-info-wrapper rounded-0">
-                                        <img src="img/demos/digital-agency/projects/project-3.jpg"
-                                            class="img-fluid rounded-0" alt="" />
-                                        <div class="thumb-info-action">
-                                            <a href="portfolio-single-wide-slider.html">
-                                                <span class="thumb-info-action-icon thumb-info-action-icon-light"><i
-                                                        class="fas fa-plus text-dark"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h2 class="text-color-light font-weight-semibold text-3 opacity-7 line-height-1 mb-1">
-                                    WEBSITE CREATION - 2022</h2>
-                                <h3 class="text-transform-none font-weight-bold text-5-5 mb-0 pb-2">
-                                    <a href="#" class="text-decoration-none text-color-light opacity-hover-8">Porto
-                                        Digital Agency</a>
-                                </h3>
-                            </div>
-                            <div class="appear-animation" data-appear-animation="fadeInLeftShorterPlus"
-                                data-appear-animation-delay="200">
-                                <div
-                                    class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons rounded-0 mb-3">
-                                    <div class="thumb-info-wrapper rounded-0">
-                                        <img src="img/demos/digital-agency/projects/project-4.jpg"
-                                            class="img-fluid rounded-0" alt="" />
-                                        <div class="thumb-info-action">
-                                            <a href="portfolio-single-wide-slider.html">
-                                                <span class="thumb-info-action-icon thumb-info-action-icon-light"><i
-                                                        class="fas fa-plus text-dark"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h2 class="text-color-light font-weight-semibold text-3 opacity-7 line-height-1 mb-1">
-                                    WEBSITE CREATION - 2022</h2>
-                                <h3 class="text-transform-none font-weight-bold text-5-5 mb-0 pb-2">
-                                    <a href="#" class="text-decoration-none text-color-light opacity-hover-8">Porto
-                                        Digital Agency</a>
-                                </h3>
-                            </div>
-                            <div class="appear-animation" data-appear-animation="fadeInLeftShorterPlus"
-                                data-appear-animation-delay="200">
-                                <div
-                                    class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons rounded-0 mb-3">
-                                    <div class="thumb-info-wrapper rounded-0">
-                                        <img src="img/demos/digital-agency/projects/project-5.jpg"
-                                            class="img-fluid rounded-0" alt="" />
-                                        <div class="thumb-info-action">
-                                            <a href="portfolio-single-wide-slider.html">
-                                                <span class="thumb-info-action-icon thumb-info-action-icon-light"><i
-                                                        class="fas fa-plus text-dark"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h2 class="text-color-light font-weight-semibold text-3 opacity-7 line-height-1 mb-1">
-                                    WEBSITE CREATION - 2022</h2>
-                                <h3 class="text-transform-none font-weight-bold text-5-5 mb-0 pb-2">
-                                    <a href="#" class="text-decoration-none text-color-light opacity-hover-8">Porto
-                                        Digital Agency</a>
-                                </h3>
-                            </div>
-                            <div class="appear-animation" data-appear-animation="fadeInLeftShorterPlus"
-                                data-appear-animation-delay="200">
-                                <div
-                                    class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons rounded-0 mb-3">
-                                    <div class="thumb-info-wrapper rounded-0">
-                                        <img src="img/demos/digital-agency/projects/project-6.jpg"
-                                            class="img-fluid rounded-0" alt="" />
-                                        <div class="thumb-info-action">
-                                            <a href="portfolio-single-wide-slider.html">
-                                                <span class="thumb-info-action-icon thumb-info-action-icon-light"><i
-                                                        class="fas fa-plus text-dark"></i></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h2 class="text-color-light font-weight-semibold text-3 opacity-7 line-height-1 mb-1">
-                                    WEBSITE CREATION - 2022</h2>
-                                <h3 class="text-transform-none font-weight-bold text-5-5 mb-0 pb-2">
-                                    <a href="#" class="text-decoration-none text-color-light opacity-hover-8">Porto
-                                        Digital Agency</a>
-                                </h3>
-                            </div>
+                
                         </div>
                     </div>
                 </div>

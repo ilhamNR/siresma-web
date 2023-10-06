@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Public\HomeController;
 use App\Http\Controllers\Public\NewsController;
+use App\Http\Controllers\Public\TentangController;
 use App\Http\Controllers\Public\VisionController;
 use App\Http\Controllers\Public\FacilityController;
 use App\Http\Controllers\Public\StatisticController;
@@ -28,7 +29,9 @@ Route::get('visi-misi', [VisionController::class, 'index'])->name('public.vision
 Route::prefix('berita')->group(function () {
     Route::get('/', [NewsController::class, 'index'])->name('public.newsIndex');
 });
-
+Route::prefix('tentang')->group(function () {
+    Route::get('/', [TentangController::class, 'index'])->name('public.tentangIndex');
+});
 Route::prefix('data')->group(function () {
     Route::get('timbunan-sampah', [StatisticController::class, 'landfillData'])->name('public.landfillData');
     Route::get('komposisi-sampah', [StatisticController::class, 'wasteComposition'])->name('public.wasteComposition');

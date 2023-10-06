@@ -6,9 +6,9 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo text-center">
-                            <a href="index.html">
-                                <img alt="SIPSB" width="50" height="50" src="{{url('img/Logo Siresma_2-01.svg')}}">
-                                <strong class="d-block text-color-light">SIRESMA</strong>
+                            <a href="{{ route('public.home') }}">
+                                <img alt="SIRESMA" width="50" height="50" src="{{url('img/Logo Siresma_2-01.svg')}}">
+                                
                             </a>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href={{ route('public.visionMission') }}>
+                                            <a class="nav-link" href={{ route('public.tentangIndex') }}>
                                                 Tentang
                                             </a>
                                         </li>
@@ -49,23 +49,22 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle">
-                                                Fasilitas Pengelolaan Sampah
+                                        <li>
+                                            <a class="nav-link" href={{ route('public.contactUs') }}>
+                                                Aplikasi
                                             </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href={{ route('public.trashBank') }}>Bank
-                                                        Sampah</a></li>
-                                                {{-- <li><a class="dropdown-item" href="rumah-kompos.html">Rumah Kompos</a></li> --}}
-                                                <li><a class="dropdown-item" href={{ route('public.tps3r') }}>TPS3R</a>
-                                                </li>
-                                            </ul>
                                         </li>
                                         <li>
                                             <a class="nav-link" href={{ route('public.contactUs') }}>
                                                 Hubungi Kami
                                             </a>
                                         </li>
+                                        <li>
+                                            <a class="nav-link" href={{ route('public.contactUs') }}>
+                                                Akun           
+                                            </a>
+                                        </li>
+        
                                     </ul>
                                 </nav>
                             </div>
