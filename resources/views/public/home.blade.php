@@ -11,7 +11,7 @@
 
                     <!-- Carousel Slide 1 -->
                     <div class="owl-item position-relative overflow-hidden">
-                        <img src="img/custom-divider-1.png" class="img-fluid custom-bg-slider-right" alt="" />
+                        <img src="img/custom-divider-1.png" class="img-fluid slider-right" alt="" />
                         <div
                             class="custom-svg-style-1 svg-fill-color-primary position-absolute top-0 left-50pct transform3dx-n50 h-100 z-index-0">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -167,7 +167,7 @@
             </div>
         </div>
 
-        <section class="section section-height-3 bg-gradient border-0 m-0">
+        <section class="section section-height-3 border-0 m-0" style="background-color: #3DD679;">
             <div class="container py-1">
                 <div class="col">
                     <h2 class="text-color-light font-weight-bold text-9 mb-5-5 appear-animation"
