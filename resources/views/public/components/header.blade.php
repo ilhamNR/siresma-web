@@ -61,7 +61,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href={{ route('public.contactUs') }}>
+                                            <a class="nav-link" href={{ route('public.loginIndex') }}>
                                                 Akun           
                                             </a>
                                         </li>

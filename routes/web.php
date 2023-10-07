@@ -5,6 +5,7 @@ use App\Http\Controllers\Public\HomeController;
 use App\Http\Controllers\Public\NewsController;
 use App\Http\Controllers\Public\TentangController;
 use App\Http\Controllers\Public\AplikasiController;
+use App\Http\Controllers\Public\LoginController;
 use App\Http\Controllers\Public\VisionController;
 use App\Http\Controllers\Public\FacilityController;
 use App\Http\Controllers\Public\StatisticController;
@@ -35,6 +36,9 @@ Route::prefix('tentang')->group(function () {
 });
 Route::prefix('aplikasi')->group(function () {
     Route::get('/', [AplikasiController::class, 'index'])->name('public.aplikasiIndex');
+});
+Route::prefix('login')->group(function () {
+    Route::get('/', [LoginController::class, 'index'])->name('public.loginIndex');
 });
 Route::prefix('data')->group(function () {
     Route::get('timbunan-sampah', [StatisticController::class, 'landfillData'])->name('public.landfillData');
