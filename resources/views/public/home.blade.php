@@ -55,21 +55,21 @@
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#" data-slide-to="0" class="active"></li>
-                        <li data-target="#" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
 
                     <!-- Slides -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{url('img/24Sept.jpg')}}" alt="Slider 1" style="max-width: 100%; height: auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); border-radius: 5%;">
+                            <img src="{{url('img/slider1.jpg')}}" alt="Slider 1" style="max-width: 100%; height: 100%; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); border-radius: 15%;">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{url('img/25Sept.jpg')}}" alt="Slider 2" style="max-width: 100%; height: auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
+                            <img src="{{url('img/25Sept.jpg')}}" alt="Slider 2" style="max-width: 100%; height: auto; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);border-radius: 15%;">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Slider 3" style="max-width: 100%; height: auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
+                            <img src="{{url('img/slider3.jpg')}}" alt="Slider 3" style="max-width: 100%; height: auto; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);border-radius: 15%;">
                         </div>
                     </div>
 
