@@ -86,15 +86,8 @@
                 </div>
             </div>
         </div>
-</div>
-</div>
-            
-           
-        </div>
-
         <div class="container text-center py-5 my-4">
             <div class="col text-center">
-                <br>
                 <h2 class="text-color-dark font-weight-bold text-9 mb-4 appear-animation"
                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">E-COMMERCE SIRESMA</h2>
             </div>
@@ -107,8 +100,8 @@
                                 <i style="color: #3DD679" class="fas fa-history"></i>
                             </a>
                         </div>
-                        <input style="border-radius: 5px; border-color: black" type="text" class="form-control"
-                            placeholder="Cari di SIRESMA">
+                        <input style="border-radius: 5px; border-color: rgba(0, 0, 0, 0.481)" type="text"
+                            class="form-control" placeholder="Cari di SIRESMA">
                         <div class="input-group-append" style="margin-left: 5px;">
                             <a class="btn btn-outline-secondary" type="button">
                                 <i style="color: #3DD679" class="fas fa-search"></i>
@@ -120,8 +113,6 @@
                     </div>
                 </div>
             </div>
-
-
             <br>
             <div class="col-md-12 mb-4">
     <div class="card" style="box-shadow: -2px 4px 10px 7px rgba(0, 0, 0, 0.2);">

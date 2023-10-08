@@ -127,7 +127,6 @@
                                     Grafik Komposisi Sampah berdasarkan Sumber Sampah. Grafik Komposisi Sampah dibawah ini
                                     adalah Tahun 2022.</h3>
                             </div>
-
                             <div class="row">
                                 <div class="col-lg-6 col-md-6" style="padding: 10px;">
                                     <div class="box box-solid" style="box-shadow: 10px 10px 10px rgba(0,0,0,0.5);">
