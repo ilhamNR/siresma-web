@@ -11,7 +11,7 @@
         <div class="owl-stage-outer">
             
                 
-            ]<div class="container position-relative h-100 z-index-1 mt-4">
+    <div class="container position-relative h-100 z-index-1 mt-4">
         <div class="row align-items-center h-100">
             <div class="col-md-6 mb-5-5 mb-sm-0">
                 <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
@@ -51,6 +51,7 @@
 
             <!-- Add Carousel on the right side -->
             <div class="col-md-6">
+                
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -62,18 +63,19 @@
                     <!-- Slides -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{url('img/slider1.jpg')}}" alt="Slider 1">
+                            <img src="{{url('img/24Sept.jpg')}}" alt="Slider 1" style="max-width: 100%; height: auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); border-radius: 5%;">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{url('img/slider2.jpg')}}" alt="Slider 2">
+                            <img src="{{url('img/25Sept.jpg')}}" alt="Slider 2" style="max-width: 100%; height: auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{url('img/slider3.jpg')}}" alt="Slider 3">
+                            <img src="{{url('img/27Sept.jpg')}}" alt="Slider 3" style="max-width: 100%; height: auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
                         </div>
                     </div>
 
                     <!-- Controls -->
-                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    
+                    <a class="carousel-control-prev" href="#myCarrousel" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>

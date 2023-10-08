@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <title>LOGIN</title>
+    <title>REGISTER</title>
     <style>
         body {
             background-color: #3DD679;
@@ -63,16 +63,26 @@
             </div>
             <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="800">
                     <h1 class="font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-4" style="font-family: Poppins; color: white;">
-                        Sistem Resik Mandiri
+                        Sistem Resik Mandiri(Register)
                     </h1>
             </div>                 
             <div class="col-md-8">
                 <div class="card">
                     <BR></BR>
-                    <div class="card-header">{{ __('MASUK SIRESMA') }}</div>
+                    <div class="card-header">{{ __('REGISTER AKUN SIRESMA') }}</div>
                     <div class="card-body">
-                        <form method="POST" action="{{ route('login') }}">
+                        <form method="POST" action="{{ route('register') }}">
                             @csrf
+                            <div class="form-group col ">
+                                <div class="col-md-20 justify-content-center">
+                                    <input id="nama" type="text" class="form-control @error('email') is-invalid @enderror" name="nama" autofocus placeholder="Masukkan Nama Lengkap" style="border-radius: 82px;">
+                                    @error('email')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+                            </div>
                             <div class="form-group col ">
                                 <div class="col-md-20 justify-content-center">
                                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Masukkan Email Anda" style="border-radius: 82px;">
@@ -97,7 +107,7 @@
                             <div class="form-group row">
                                 <div class="col-md-7 offset-md-4">
                                     <div class="form-check">
-                                    <h6>Belum Punya Akun? <a href="{{ route('register') }}">Register</a></h6>
+                                         <h6>Sudah Punya Akun? <a href="">Login</a></h6>
                                     </div>
                                 </div>
                                 

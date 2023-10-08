@@ -1,5 +1,5 @@
 @extends('public.components.layout')
-
+<!-- TENTANG VISI MISI !-->
 @section('content')
 <div role="main" class="main">
 
