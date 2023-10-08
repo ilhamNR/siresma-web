@@ -63,13 +63,13 @@
                     <!-- Slides -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{url('img/slider1.jpg')}}" alt="Slider 1" style="max-width: 100%; height: 100%; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); border-radius: 15%;">
+                            <img src="{{url('img/slider1.jpg')}}" alt="Slider 1" style="max-width: 100%; height: 100%; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); border-radius: 20%;">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{url('img/25Sept.jpg')}}" alt="Slider 2" style="max-width: 100%; height: auto; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);border-radius: 15%;">
+                            <img src="{{url('img/25Sept.jpg')}}" alt="Slider 2" style="max-width: 100%; height: 100%; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);border-radius: 20%;">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{url('img/slider3.jpg')}}" alt="Slider 3" style="max-width: 100%; height: auto; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);border-radius: 15%;">
+                            <img src="{{url('img/slider3.jpg')}}" alt="Slider 3" style="max-width: 100%; height: 100%; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);border-radius: 20%;">
                         </div>
                     </div>
 
@@ -86,8 +86,15 @@
                 </div>
             </div>
         </div>
+</div>
+</div>
+            
+           
+        </div>
+
         <div class="container text-center py-5 my-4">
             <div class="col text-center">
+                <br>
                 <h2 class="text-color-dark font-weight-bold text-9 mb-4 appear-animation"
                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">E-COMMERCE SIRESMA</h2>
             </div>
@@ -100,109 +107,111 @@
                                 <i style="color: #3DD679" class="fas fa-history"></i>
                             </a>
                         </div>
-                        <input style="border-radius: 5px; border-color: rgba(0, 0, 0, 0.481)" type="text"
-                            class="form-control" placeholder="Cari di SIRESMA">
+                        <input style="border-radius: 5px; border-color: black" type="text" class="form-control"
+                            placeholder="Cari di SIRESMA">
                         <div class="input-group-append" style="margin-left: 5px;">
                             <a class="btn btn-outline-secondary" type="button">
                                 <i style="color: #3DD679" class="fas fa-search"></i>
                             </a>
-                            <a href="chart" class="btn btn-outline-secondary" type="button">
+                            <a href="{{ route('public.loginIndex') }}" class="btn btn-outline-secondary" type="button">
                                 <i style="color: #3DD679" class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+
+
             <br>
             <div class="col-md-12 mb-4">
-    <div class="card" style="box-shadow: -2px 4px 10px 7px rgba(0, 0, 0, 0.2);">
-        <div class="card-body">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+            <div class="card" style="box-shadow: -2px 4px 10px 7px rgba(0, 0, 0, 0.2);">
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/gambar0.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center mt-3"><strong>Tas Daur Ulang</strong></h3>
+                                        <p class="card-text text-center" style="color: #3DD679"><strong>Rp 35.000</strong> </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="{{ route('public.loginIndex') }}" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/gambar2.png')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                    <h3 class="card-title text-center mt-3"><strong>Topi dan Tas KREASI Daur Ulang</strong></h3>
+                                        <p class="card-text text-center" style="color: #3DD679"><strong>Rp 65.000</strong> </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="{{ route('public.loginIndex') }}" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/gambar3.png')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                    <h3 class="card-title text-center mt-3"><strong>LILIN KREASI MINYAK JELANTAH</strong></h3>
+                                        <p class="card-text text-center" style="color: #3DD679"><strong>Rp 55.000</strong> </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="{{ route('public.loginIndex') }}" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/gambar2.png')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                    <h3 class="card-title text-center mt-3"><strong>TOPI KREASI DAN DOMPET</strong></h3>
+                                        <p class="card-text text-center" style="color: #3DD679"><strong>Rp 55.000</strong> </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="{{ route('public.loginIndex') }}" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/gambar4.png')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                    <h3 class="card-title text-center mt-3"><strong>Baby MAGGOT<br> (per Kg)</strong></h3>
+                                        <p class="card-text text-center" style="color: #3DD679"><strong>Rp 2.000</strong> </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="{{ route('public.loginIndex') }}" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/gambar4.png')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                    <h3 class="card-title text-center mt-3"><strong> MAGGOT <br>(per Kg)</strong></h3>
+                                        <p class="card-text text-center" style="color: #3DD679"><strong>Rp 5.000</strong> </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="{{ route('public.loginIndex') }}" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/gambar4.png')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                    <h3 class="card-title text-center mt-3"><strong> MAGGOT <br>(per Kg)</strong></h3>
+                                        <p class="card-text text-center" style="color: #3DD679"><strong>Rp 5.000</strong> </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="{{ route('public.loginIndex') }}" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
-                            </div>
-                        </div>
-                    </div>
 
                     <!-- Repeat for more cards -->
                 </div>
