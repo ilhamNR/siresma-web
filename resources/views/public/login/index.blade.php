@@ -97,7 +97,7 @@
                             <div class="form-group row">
                                 <div class="col-md-7 offset-md-4">
                                     <div class="form-check">
-                                    <h6>Belum Punya Akun? <a href="{{ route('register') }}">Register</a></h6>
+                                    <h6>Belum Punya Akun? <a href="{{ route('public.registerIndex') }}">Register</a></h6>
                                     </div>
                                 </div>
                                 

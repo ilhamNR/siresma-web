@@ -63,7 +63,7 @@
             </div>
             <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="800">
                     <h1 class="font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-4" style="font-family: Poppins; color: white;">
-                        Sistem Resik Mandiri(Register)
+                        Sistem Resik Mandiri
                     </h1>
             </div>                 
             <div class="col-md-8">
@@ -107,7 +107,7 @@
                             <div class="form-group row">
                                 <div class="col-md-7 offset-md-4">
                                     <div class="form-check">
-                                         <h6>Sudah Punya Akun? <a href="">Login</a></h6>
+                                         <h6>Sudah Punya Akun? <a href="{{ route('public.loginIndex') }}">Login</a></h6>
                                     </div>
                                 </div>
                                 

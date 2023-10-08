@@ -6,7 +6,7 @@ use App\Http\Controllers\Public\NewsController;
 use App\Http\Controllers\Public\TentangController;
 use App\Http\Controllers\Public\AplikasiController;
 use App\Http\Controllers\Public\LoginController;
-use App\Http\Controllers\Public\RegistrerController;
+use App\Http\Controllers\Public\RegisterController;
 use App\Http\Controllers\Public\VisionController;
 use App\Http\Controllers\Public\FacilityController;
 use App\Http\Controllers\Public\StatisticController;

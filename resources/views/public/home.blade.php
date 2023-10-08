@@ -11,82 +11,82 @@
         <div class="owl-stage-outer">
             
                 
-    <div class="container position-relative h-100 z-index-1 mt-4">
-        <div class="row align-items-center h-100">
-            <div class="col-md-6 mb-5-5 mb-sm-0">
-                <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
-                    data-appear-animation-delay="800">
-                    <h1 class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0"
-                        style="font-family: Poppins;">
-                        SIRESMA
-                    </h1>
-                </div>
-                <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
-                    data-appear-animation-delay="600">
-                    <span class="d-block custom-stroke-text-effect-1 custom-big-text-2 font-weight-bold"
-                        style="font-family: 'Poppins', sans-serif;">SIRESMA</span>
-                </div>
-                <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
-                    data-appear-animation-delay="800">
-                    <h1 class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0"
-                        style="font-family: Poppins;">
-                        SIRESMA
-                    </h1>
-                </div>
-                <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
-                    data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
-                    Sistem Resik Mandiri</p>
-                    <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
-                    data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
-                    Kelurahan Sambiroto</p>
-                <div class="d-flex ">
+        <div class="container position-relative h-100 z-index-1 mt-4">
+            <div class="row align-items-center h-100">
+                <div class="col-md-6 mb-5-5 mb-sm-0">
+                    <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
+                        data-appear-animation-delay="800">
+                        <h1 class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0"
+                            style="font-family: Poppins;">
+                            SIRESMA
+                        </h1>
+                    </div>
+                    <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
+                        data-appear-animation-delay="600">
+                        <span class="d-block custom-stroke-text-effect-1 custom-big-text-2 font-weight-bold"
+                            style="font-family: 'Poppins', sans-serif;">SIRESMA</span>
+                    </div>
+                    <div class="appear-animation" data-appear-animation="fadeInDownShorterPlus"
+                        data-appear-animation-delay="800">
+                        <h1 class="text-color-light font-weight-bold positive-ls-3 custom-big-text-2 line-height-1 mb-0"
+                            style="font-family: Poppins;">
+                            SIRESMA
+                        </h1>
+                    </div>
                     <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
                         data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
-                        Kecamatan Tembalang</p>
-                        <img src="{{url('img/maskot_siresma1.png')}}" alt="{{url('img/icon_siresma1.png')}}" width="105" height="150" appear-animation"
-                        data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1000">
-                </div>
-                    
-            </div>
-
-            <!-- Add Carousel on the right side -->
-            <div class="col-md-6">
-                
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#" data-slide-to="0" class="active"></li>
-                        <li data-target="#" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-
-                    <!-- Slides -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="{{url('img/24Sept.jpg')}}" alt="Slider 1" style="max-width: 100%; height: auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); border-radius: 5%;">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{url('img/25Sept.jpg')}}" alt="Slider 2" style="max-width: 100%; height: auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Slider 3" style="max-width: 100%; height: auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
-                        </div>
+                        Sistem Resik Mandiri</p>
+                        <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
+                        data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
+                        Kelurahan Sambiroto</p>
+                    <div class="d-flex ">
+                        <p class="text-color-dark font-weight-bold text-6 text-sm-9 ms-2 mb-3 appear-animation"
+                            data-appear-animation="fadeInDownShorterPlus" data-appear-animation-delay="1000">
+                            Kecamatan Tembalang</p>
+                            <img src="{{url('img/maskot_siresma1.png')}}" alt="{{url('img/icon_siresma1.png')}}" width="105" height="150" appear-animation"
+                            data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1000">
                     </div>
+                        
+                </div>
 
-                    <!-- Controls -->
+                <!-- Add Carousel on the right side -->
+                <div class="col-md-6">
                     
-                    <a class="carousel-control-prev" href="#myCarrousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{url('img/slider1.jpg')}}" alt="Slider1" style="max-width: 100%; height: 100%; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); border-radius: 20%;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{url('img/slider2.jpg')}}" alt="Slider2" style="max-width: 100%; height: 100%; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); border-radius: 20%;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{url('img/slider3.jpg')}}" alt="Slider3" style="max-width: 100%; height: 100%; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); border-radius: 20%;">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-</div>
+    </div>
 </div>
             
            
@@ -123,101 +123,101 @@
 
             <br>
             <div class="col-md-12 mb-4">
-    <div class="card" style="box-shadow: -2px 4px 10px 7px rgba(0, 0, 0, 0.2);">
-        <div class="card-body">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+            <div class="card" style="box-shadow: -2px 4px 10px 7px rgba(0, 0, 0, 0.2);">
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center mt-2">Maggot</h3>
+                                        <p class="card-text text-justify">Maggot aku tidak suka</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center mt-2">Maggot</h3>
+                                        <p class="card-text text-justify">Maggot aku tidak suka</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center mt-2">Maggot</h3>
+                                        <p class="card-text text-justify">Maggot aku tidak suka</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center mt-2">Maggot</h3>
+                                        <p class="card-text text-justify">Maggot aku tidak suka</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center mt-2">Maggot</h3>
+                                        <p class="card-text text-justify">Maggot aku tidak suka</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center mt-2">Maggot</h3>
+                                        <p class="card-text text-justify">Maggot aku tidak suka</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
+                            <div class="col-md-3 mb-3">
+                                <div class="card">
+                                    <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center mt-2">Maggot</h3>
+                                        <p class="card-text text-justify">Maggot aku tidak suka</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary">Beli</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                            <img src="{{url('img/27Sept.jpg')}}" alt="Gambar 3" class="card-img-top img-center">
-                            <div class="card-body">
-                                <h3 class="card-title text-center mt-2">Maggot</h3>
-                                <p class="card-text text-justify">Maggot aku tidak suka</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Beli</a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- Repeat for more cards -->
+                            <!-- Repeat for more cards -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
 
                     </div>
@@ -313,6 +313,8 @@
                 </div>
             </div>
         </section>
-
+</div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 @stop
