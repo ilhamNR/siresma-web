@@ -51,11 +51,7 @@
             <div class="row justify-content-md-center">
                 <div class="col-md-5">
                     <div class="input-group">
-                        <div class="input-group-prepend" style="margin-right: 5px;">
-                            <a class="btn btn-outline-secondary" type="button">
-                                <i style="color: #3DD679" class="fas fa-history"></i>
-                            </a>
-                        </div>
+
                         <input style="border-radius: 5px; border-color: black" type="text" class="form-control"
                             placeholder="Cari di SIRESMA">
                         <div class="input-group-append" style="margin-left: 5px;">
@@ -69,113 +65,24 @@
                     </div>
                 </div>
             </div>
-
-
             <br>
             <div class="col-md-12 mb-4">
                 <div class="card" style="box-shadow: -2px 4px 10px 7px rgba(0, 0, 0, 0.2);">
                     <div class="card-body">
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-md-3 mb-3">
+                            <div class="row justify-content-start">
+                                <div class="col-md-6">
                                     <div class="card">
-                                        <img src="{{ url('img/27Sept.jpg') }}" alt="Gambar 3"
-                                            class="card-img-top img-center">
-                                        <div class="card-body">
-                                            <h3 class="card-title text-center mt-2">Maggot</h3>
-                                            <p class="card-text text-justify">Maggot aku tidak suka</p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <a href="#" class="btn btn-primary">Beli</a>
+                                        <div class="row justify-content-between">
+                                            
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 mb-3">
-                                    <div class="card">
-                                        <img src="{{ url('img/27Sept.jpg') }}" alt="Gambar 3"
-                                            class="card-img-top img-center">
-                                        <div class="card-body">
-                                            <h3 class="card-title text-center mt-2">Maggot</h3>
-                                            <p class="card-text text-justify">Maggot aku tidak suka</p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <a href="#" class="btn btn-primary">Beli</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 mb-3">
-                                    <div class="card">
-                                        <img src="{{ url('img/27Sept.jpg') }}" alt="Gambar 3"
-                                            class="card-img-top img-center">
-                                        <div class="card-body">
-                                            <h3 class="card-title text-center mt-2">Maggot</h3>
-                                            <p class="card-text text-justify">Maggot aku tidak suka</p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <a href="#" class="btn btn-primary">Beli</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 mb-3">
-                                    <div class="card">
-                                        <img src="{{ url('img/27Sept.jpg') }}" alt="Gambar 3"
-                                            class="card-img-top img-center">
-                                        <div class="card-body">
-                                            <h3 class="card-title text-center mt-2">Maggot</h3>
-                                            <p class="card-text text-justify">Maggot aku tidak suka</p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <a href="#" class="btn btn-primary">Beli</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 mb-3">
-                                    <div class="card">
-                                        <img src="{{ url('img/27Sept.jpg') }}" alt="Gambar 3"
-                                            class="card-img-top img-center">
-                                        <div class="card-body">
-                                            <h3 class="card-title text-center mt-2">Maggot</h3>
-                                            <p class="card-text text-justify">Maggot aku tidak suka</p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <a href="#" class="btn btn-primary">Beli</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 mb-3">
-                                    <div class="card">
-                                        <img src="{{ url('img/27Sept.jpg') }}" alt="Gambar 3"
-                                            class="card-img-top img-center">
-                                        <div class="card-body">
-                                            <h3 class="card-title text-center mt-2">Maggot</h3>
-                                            <p class="card-text text-justify">Maggot aku tidak suka</p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <a href="#" class="btn btn-primary">Beli</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 mb-3">
-                                    <div class="card">
-                                        <img src="{{ url('img/27Sept.jpg') }}" alt="Gambar 3"
-                                            class="card-img-top img-center">
-                                        <div class="card-body">
-                                            <h3 class="card-title text-center mt-2">Maggot</h3>
-                                            <p class="card-text text-justify">Maggot aku tidak suka</p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <a href="#" class="btn btn-primary">Beli</a>
-                                        </div>
-                                    </div>
-                                </div>
-
                                 <!-- Repeat for more cards -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     @stop
