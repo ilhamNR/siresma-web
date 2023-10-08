@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Public\HomeController;
+use App\Http\Controllers\Public\ChartController;
 use App\Http\Controllers\Public\NewsController;
 use App\Http\Controllers\Public\TentangController;
 use App\Http\Controllers\Public\AplikasiController;
@@ -55,6 +56,9 @@ Route::prefix('fasilitas')->group(function () {
 });
 
 Route::get('contact-us',[ContactController::class, 'index'])->name('public.contactUs');
+
+Route::get('chart',[ChartController::class, 'index'])->name('public.chart');
+
 
 
 Route::middleware([
