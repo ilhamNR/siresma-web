@@ -11,7 +11,7 @@
                 <!-- small box -->
                 <div class="small-box bg-info">
                   <div class="inner">
-                    <h3>150</h3>
+                    <h3>253</h3>
 
                     <p>Jumlah Setoran Sampah</p>
                   </div>
@@ -26,7 +26,7 @@
                 <!-- small box -->
                 <div class="small-box bg-success">
                   <div class="inner">
-                    <h3><sup style="font-size: 20px">Rp</sup>1.000.000</h3>
+                    <h3><sup style="font-size: 20px">Rp</sup>589.500</h3>
 
                     <p>Jumlah Pendapatan</p>
                   </div>
@@ -41,7 +41,7 @@
                 <!-- small box -->
                 <div class="small-box bg-warning">
                   <div class="inner">
-                    <h3>44</h3>
+                    <h3>100</h3>
 
                     <p>Jumlah Pengguna</p>
                   </div>
@@ -56,7 +56,7 @@
                 <!-- small box -->
                 <div class="small-box bg-danger">
                   <div class="inner">
-                    <h3>65</h3>
+                    <h3>0</h3>
 
                     <p>Pesan Baru Diterima</p>
                   </div>

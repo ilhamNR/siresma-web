@@ -29,4 +29,10 @@ class UserController extends Controller
         }
         return view('admin.users.nasabah');
     }
+
+    public function details($id){
+        $user = AppUser::findorFail($id);
+        // dd($user);
+        return view('admin.users.details', compact('user'));
+    }
 }
