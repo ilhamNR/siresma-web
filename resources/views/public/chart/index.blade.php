@@ -52,7 +52,7 @@
                 <div class="col-md-5">
                     <div class="input-group">
 
-                        <input style="border-radius: 5px; border-color: black" type="text" class="form-control"
+                        <input style="border-radius: 5px; border-color: rgba(0, 0, 0, 0.500)" type="text" class="form-control"
                             placeholder="Cari di SIRESMA">
                         <div class="input-group-append" style="margin-left: 5px;">
                             <a class="btn btn-outline-secondary" type="button">
@@ -74,7 +74,9 @@
                                 <div class="col-md-6">
                                     <div class="card">
                                         <div class="row justify-content-between">
-                                            
+                                            <div class="row">
+                                                <img src="{{ url('img/gambar0.jpg') }}" height="60" width="70" alt="Gambar 0">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
