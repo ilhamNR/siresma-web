@@ -22,14 +22,14 @@
 
                   <ul class="list-group list-group-unbordered mb-3">
                     <li class="list-group-item">
-                      <b>Followers</b> <a class="float-right">1,322</a>
+                      <b>Total Saldo</b> <a class="float-right">1,322</a>
                     </li>
                     <li class="list-group-item">
-                      <b>Following</b> <a class="float-right">543</a>
+                      <b>Total Transaksi</b> <a class="float-right">543</a>
                     </li>
-                    <li class="list-group-item">
+                    {{-- <li class="list-group-item">
                       <b>Friends</b> <a class="float-right">13,287</a>
-                    </li>
+                    </li> --}}
                   </ul>
 
                   <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>
@@ -84,14 +84,14 @@
               <div class="card">
                 <div class="card-header p-2">
                   <ul class="nav nav-pills">
-                    <li class="nav-item"><a class="nav-link active" href="#activity" data-toggle="tab">Activity</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#timeline" data-toggle="tab">Timeline</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#setoran" data-toggle="tab">Setoran Sampah</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#transaksi" data-toggle="tab">Transaksi</a></li>
                     <li class="nav-item"><a class="nav-link" href="#settings" data-toggle="tab">Settings</a></li>
                   </ul>
                 </div><!-- /.card-header -->
                 <div class="card-body">
                   <div class="tab-content">
-                    <div class="active tab-pane" id="activity">
+                    <div class="active tab-pane" id="setoran">
                       <!-- Post -->
                       <div class="post">
                         <div class="user-block">
@@ -205,7 +205,7 @@
                       <!-- /.post -->
                     </div>
                     <!-- /.tab-pane -->
-                    <div class="tab-pane" id="timeline">
+                    <div class="tab-pane" id="transaksi">
                       <!-- The timeline -->
                       <div class="timeline timeline-inverse">
                         <!-- timeline time label -->
