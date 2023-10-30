@@ -12,7 +12,8 @@ export default defineConfig({
                 'resources/js/admin/main.js',
                 'resources/js/admin/dashboard.js',
                 'resources/css/admin/nasabah.css',
-                'resources/js/admin/nasabah.js'
+                'resources/js/admin/nasabah.js',
+                'resources/js/admin/userdetails.js'
             ],
             refresh: [
                 ...refreshPaths,
