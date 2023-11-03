@@ -72,7 +72,10 @@ Route::middleware([
         })->name('admin.dashboard');
         Route::prefix('/users')->group(function(){
             Route::get('nasabah', [UserController::class, 'indexNasabah'])->name('admin.nasabah');
-            Route::get('details/{id}', [UserController::class, 'details'])->name('admin.details');
+            Route::prefix('details/{id}')->group(function(){
+                Route::get('/', [UserController::class, 'details'])->name('admin.details');
+                Route::get('setoran-data',[UserController::class, 'trashStoreLog'])->name('admin.setoranData');
+            });
         });
     });
 
