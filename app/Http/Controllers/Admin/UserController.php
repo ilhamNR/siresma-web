@@ -74,4 +74,27 @@ class UserController extends Controller
         });
         return DataTables::of($data)->toJson();
     }
+
+    public function transactionLog($id)
+    {
+        $data = AppTransactionLog::where('user_id', $id)->get();
+        $data = $data->map(function ($item) {
+            if ($item->type === 'WITHDRAWAL' && $item->is_approved === 1) {
+                $status = "APPROVED";
+            } else if ($item->type === 'WITHDRAWAL' && $item->is_approved === 0) {
+                $status = "PENDING";
+            } else if ($item->type === 'STORE' && $item->is_approved === 0) {
+                $status = "ACCEPTED";
+            }
+            return [
+                'created_at' => $item->created_at->format('Y-m-d H:i:s'),
+                'code' => $item->code,
+                'type' => $item->type,
+                'amount' => $item->amount,
+                'status' => $status,
+                'id' => $item->id
+            ];
+        });
+        return DataTables::of($data)->toJson();
+    }
 }

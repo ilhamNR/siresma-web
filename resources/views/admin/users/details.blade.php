@@ -130,10 +130,11 @@
                                                     <div class="card">
                                                         <!-- /.card-header -->
                                                         <table id="transaksi_table"
-                                                            class="table table-bordered table-striped">
+                                                            class="table table-bordered table-striped" data-route={{ route('admin.transaksiData', $user->id) }}>
                                                             <thead>
                                                                 <tr>
-                                                                    <th>Nomor Transaksi</th>
+                                                                    <th>Tanggal Transaksi</th>
+                                                                    <th>Kode Transaksi</th>
                                                                     <th>Tipe</th>
                                                                     <th>Nominal</th>
                                                                     <th>Status</th>
@@ -165,7 +166,7 @@
                                             <label for="inputName" class="col-sm-2 col-form-label">Nama</label>
                                             <div class="col-sm-10">
                                                 <input type="name" class="form-control" id="inputName"
-                                                    value={{ $user->full_name }} placeholder="Name">
+                                                    value='{{ $user->full_name }}'' placeholder="Name">
                                             </div>
                                         </div>
                                         <div class="form-group row">
