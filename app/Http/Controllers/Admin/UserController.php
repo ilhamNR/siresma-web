@@ -10,12 +10,15 @@ use App\Models\AppTrashBank;
 use App\Models\AppTrashCategory;
 use Yajra\DataTables\Facades\DataTables;
 use App\Models\AppUser;
-
+use App\Http\Requests\UpdateAppUserRequest;
+use Exception;
+use App\Traits\APIResponseTrait;
 class UserController extends Controller
 {
+    use APIResponseTrait;
     public function indexNasabah(Request $request)
     {
-        $data = AppUser::with('TrashBank')->get();
+        $data = AppUser::with('TrashBank')->where('role', "NASABAH")->get();
         $data = $data->map(function ($item) {
             // dd($item->TrashBank->name);
             return [
@@ -96,5 +99,22 @@ class UserController extends Controller
             ];
         });
         return DataTables::of($data)->toJson();
+    }
+    public function updateUser(Request $request, $id)
+    {
+        $user = AppUser::findOrFail($id);
+        try {
+            $user->update([
+                'full_name' => $request->fullname,
+                'username' => $request->username,
+                'phone' => $request->phone,
+                'address' => $request->address,
+                'trash_bank_id' => $request->trash_bank
+
+            ]);
+        } catch (Exception $e) {
+            return $this->error(422, "Profil Gagal Diubah");
+        }
+        return $this->success("Profil berhasil Diubah", 200);
     }
 }

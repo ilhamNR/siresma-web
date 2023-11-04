@@ -76,6 +76,7 @@ Route::middleware([
                 Route::get('/', [UserController::class, 'details'])->name('admin.details');
                 Route::get('setoran-data',[UserController::class, 'trashStoreLog'])->name('admin.setoranData');
                 Route::get('transaksi-data',[UserController::class, 'transactionLog'])->name('admin.transaksiData');
+                Route::post('/update', [UserController::class, 'updateUser'])->name('admin.updateUser');
             });
         });
     });

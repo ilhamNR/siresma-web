@@ -45,42 +45,43 @@ class AppUser extends Model
     ];
     public function authorizeRoles($roles)
     {
-      if ($this->hasAnyRole($roles)) {
-        return true;
-      }
-      abort(401, 'This action is unauthorized.');
+        if ($this->hasAnyRole($roles)) {
+            return true;
+        }
+        abort(401, 'This action is unauthorized.');
     }
 
     public function hasAnyRole($roles)
     {
-      if (is_array($roles)) {
-        foreach ($roles as $role) {
-          if ($this->hasRole($role)) {
-            return true;
-          }
+        if (is_array($roles)) {
+            foreach ($roles as $role) {
+                if ($this->hasRole($role)) {
+                    return true;
+                }
+            }
+        } else {
+            if ($this->hasRole($roles)) {
+                return true;
+            }
         }
-      } else {
-        if ($this->hasRole($roles)) {
-          return true;
-        }
-      }
-      return false;
+        return false;
     }
 
     public function hasRole($role)
     {
-      if ($this->role == $role) {
-        return true;
-      }
-      return false;
+        if ($this->role == $role) {
+            return true;
+        }
+        return false;
     }
 
     public function getFullProfilePictureUrlAttribute()
     {
-        // Assuming your base URL is 'test.com'
         $baseUrl = env('DB_APP_URL');
 
-        // Combine the base URL and the profile_picture attribute
-        return $baseUrl . '/storage/profile_picture/' . $this->attributes['profile_picture'];
+        if (isset($this->attributes['profile_picture'])) {
+            // Combine the base URL and the profile_picture attribute
+            return $baseUrl . '/storage/profile_picture/' . $this->attributes['profile_picture'];
+        }
     }
 }

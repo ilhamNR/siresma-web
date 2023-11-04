@@ -22,7 +22,8 @@
 
                             <ul class="list-group list-group-unbordered mb-3">
                                 <li class="list-group-item">
-                                    <b>Total Saldo</b> <a class="float-right">Rp{{number_format($user->balance,2,',','.') }}</a>
+                                    <b>Total Saldo</b> <a
+                                        class="float-right">Rp{{ number_format($user->balance, 2, ',', '.') }}</a>
                                 </li>
                                 <li class="list-group-item">
                                     <b>Total Transaksi</b> <a class="float-right">{{ $user->total_transaction }}</a>
@@ -68,10 +69,10 @@
                     <div class="card">
                         <div class="card-header p-2">
                             <ul class="nav nav-pills">
-                                <li class="nav-item"><a class="profile-toolbar nav-link active" id="setoran-tab" href="#setoran"
-                                        data-toggle="tab">Setoran Sampah</a></li>
-                                <li class="nav-item"><a class="profile-toolbar nav-link" id="transaksi-tab" href="#transaksi"
-                                        data-toggle="tab">Transaksi</a></li>
+                                <li class="nav-item"><a class="profile-toolbar nav-link active" id="setoran-tab"
+                                        href="#setoran" data-toggle="tab">Setoran Sampah</a></li>
+                                <li class="nav-item"><a class="profile-toolbar nav-link" id="transaksi-tab"
+                                        href="#transaksi" data-toggle="tab">Transaksi</a></li>
                                 <li class="nav-item"><a class="profile-toolbar nav-link" id="settings-tab" href="#settings"
                                         data-toggle="tab">Update Profile</a></li>
                             </ul>
@@ -130,7 +131,8 @@
                                                     <div class="card">
                                                         <!-- /.card-header -->
                                                         <table id="transaksi_table"
-                                                            class="table table-bordered table-striped" data-route={{ route('admin.transaksiData', $user->id) }}>
+                                                            class="table table-bordered table-striped"
+                                                            data-route={{ route('admin.transaksiData', $user->id) }}>
                                                             <thead>
                                                                 <tr>
                                                                     <th>Tanggal Transaksi</th>
@@ -161,46 +163,49 @@
                                 <!-- /.tab-pane -->
 
                                 <div class="tab-pane" id="settings">
-                                    <form class="form-horizontal">
+                                    <form id="profile-form" method="POST" action='{{ route('admin.updateUser', $user->id) }}'
+                                        class="form-horizontal">
+                                        @csrf
                                         <div class="form-group row">
                                             <label for="inputName" class="col-sm-2 col-form-label">Nama</label>
                                             <div class="col-sm-10">
-                                                <input type="name" class="form-control" id="inputName"
+                                                <input type="name" name="fullname" class="form-control" id="inputName"
                                                     value='{{ $user->full_name }}'' placeholder="Name">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label for="inputEmail" class="col-sm-2 col-form-label">Username</label>
                                             <div class="col-sm-10">
-                                                <input type="username" class="form-control" id="inputUsername"
-                                                    value={{ $user->username }} placeholder="Username">
+                                                <input type="username" name="username" class="form-control"
+                                                    id="inputUsername" value={{ $user->username }} placeholder="Username">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label for="inputPhone" class="col-sm-2 col-form-label">No. HP</label>
                                             <div class="col-sm-10">
-                                                <input type="phone" class="form-control" id="inputPhone"
+                                                <input type="phone" name="phone" class="form-control" id="inputPhone"
                                                     value={{ $user->phone }} placeholder="No. HP">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label for="inputKK" class="col-sm-2 col-form-label">No. KK</label>
                                             <div class="col-sm-10">
-                                                <input type="number" class="form-control" id="inputKK"
+                                                <input type="number" name="no_kk" class="form-control" id="inputKK"
                                                     value={{ $user->no_kk }} placeholder="No. KK">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label for="inputAddress" class="col-sm-2 col-form-label">Alamat</label>
                                             <div class="col-sm-10">
-                                                <textarea class="form-control" id="inputAddress" placeholder="Alamat">{{ $user->address }}</textarea>
+                                                <textarea class="form-control" name="address" id="inputAddress" placeholder="Alamat">{{ $user->address }}</textarea>
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label for="inputExperience" class="col-sm-2 col-form-label">Bank
                                                 Sampah</label>
                                             <div class="form-group col-sm-10">
-                                                <select class="custom-select rounded-0" id="exampleSelectRounded0">
+                                                <select name="trash_bank" class="custom-select rounded-0"
+                                                    id="exampleSelectRounded0">
                                                     @foreach ($trashBank as $trash_bank)
                                                         @if ($user->trash_bank_id === $trash_bank->id)
                                                             <option selected value={{ $trash_bank->id }}>

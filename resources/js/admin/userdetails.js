@@ -2,6 +2,7 @@ import $ from "jquery";
 import "bootstrap";
 import "datatables.net-buttons-bs4";
 import "datatables.net-responsive-bs4";
+import Swal from "sweetalert2";
 
 const tabLinks = document.querySelectorAll(".profile-toolbar");
 tabLinks.forEach((link) => {
@@ -100,7 +101,7 @@ $(function () {
     const nasabahTable = $("#transaksi_table");
     const route = nasabahTable.data("route");
     // datatable for transaksi
-    $("#transaksi_table")
+    var transaksiDt = $("#transaksi_table")
         .DataTable({
             serverSide: true,
             ajax: route,
@@ -170,4 +171,51 @@ $(function () {
         .buttons()
         .container()
         .appendTo("#dataTables_wrapper .col-md-6:eq(0)");
+    // new $.fn.dataTable.Buttons(transaksiDt, {
+    //     buttons: ["copy", "excel", "pdf"],
+    // });
+});
+
+// Use jQuery or vanilla JavaScript to handle the form submission
+$("#profile-form").on("submit", function (e) {
+    e.preventDefault(); // Prevent the default form submission
+
+    // Serialize the form data
+    var formData = $(this).serialize();
+
+    // Make an AJAX request to submit the form
+    $.ajax({
+        url: $(this).attr("action"),
+        type: "POST",
+        data: formData,
+        success: function (response) {
+            // Handle the API response here, you can show success messages, update the UI, etc.
+            if (response.success) {
+                Swal.fire({
+                    icon: "success",
+                    title: "Berhasil!",
+                    text: response.message,
+                }).then((result) => {
+                    /* Read more about isConfirmed, isDenied below */
+                    if (result.isConfirmed) {
+                        location.reload();
+                    }
+                });
+                // You can add code here to update the UI as needed
+            } else {
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: response.message,
+                });
+            }
+        },
+        error: function () {
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Kesalahan terjadi saat memperbaharui profil user",
+            });
+        },
+    });
 });
