@@ -16,7 +16,7 @@ class AppUser extends Model
      * @var array
      */
     protected $fillable = ['trash_bank_id', 'username', 'profile_picture', 'full_name', 'email', 'address', 'is_verified', "role", 'no_kk', 'phone', 'password', 'created_at', 'updated_at'];
-
+    protected $appends = ['full_profile_picture_url'];
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
@@ -73,5 +73,14 @@ class AppUser extends Model
         return true;
       }
       return false;
+    }
+
+    public function getFullProfilePictureUrlAttribute()
+    {
+        // Assuming your base URL is 'test.com'
+        $baseUrl = env('DB_APP_URL');
+
+        // Combine the base URL and the profile_picture attribute
+        return $baseUrl . '/storage/profile_picture/' . $this->attributes['profile_picture'];
     }
 }
