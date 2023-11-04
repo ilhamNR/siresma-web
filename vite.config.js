@@ -13,7 +13,10 @@ export default defineConfig({
                 'resources/js/admin/dashboard.js',
                 'resources/css/admin/nasabah.css',
                 'resources/js/admin/nasabah.js',
-                'resources/js/admin/userdetails.js'
+                'resources/js/admin/userdetails.js',
+                'resources/js/admin/trashcategory.js',
+                'resources/css/admin/trashcategory.css',
+                'resources/js/admin/trashstore.js',
             ],
             refresh: [
                 ...refreshPaths,
