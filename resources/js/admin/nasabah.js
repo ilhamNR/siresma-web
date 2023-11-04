@@ -63,7 +63,9 @@ $(function() {
                 }
             }
         ],
-        responsive: true, "lengthChange": false, "autoWidth": false,
+        responsive: true,
+        "lengthChange": true,
+        "autoWidth": true,
         buttons: ["copy", "csv", "excel", "pdf", "print", "colvis"]
     }).buttons().container().appendTo('#nasabahTable_wrapper .col-md-6:eq(0)');
 });

@@ -290,7 +290,7 @@
                               </a>
                           </li>
                           <li class="nav-item">
-                              <a href="../UI/icons.html" class="nav-link">
+                              <a href='{{route('admin.pengelola')}}' class="nav-link">
                                   <i class="far fa-circle nav-icon"></i>
                                   <p>Pengelola</p>
                               </a>
@@ -307,15 +307,15 @@
                       </a>
                       <ul class="nav nav-treeview">
                           <li class="nav-item">
-                              <a href="../UI/general.html" class="nav-link">
+                              <a href='{{route('admin.kategoriSampah')}}' class="nav-link">
                                   <i class="far fa-circle nav-icon"></i>
                                   <p>Kategori Sampah</p>
                               </a>
                           </li>
                           <li class="nav-item">
-                              <a href="../UI/general.html" class="nav-link">
+                              <a href='{{route('admin.setoranSampah')}}' class="nav-link">
                                   <i class="far fa-circle nav-icon"></i>
-                                  <p>Setor Sampah</p>
+                                  <p>Setoran Sampah</p>
                               </a>
                           </li>
                           <li class="nav-item">

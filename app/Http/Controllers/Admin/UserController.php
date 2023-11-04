@@ -117,4 +117,25 @@ class UserController extends Controller
         }
         return $this->success("Profil berhasil Diubah", 200);
     }
+    public function indexPengelola(Request $request)
+    {
+        $data = AppUser::with('TrashBank')->where('role', "PENGELOLA")->get();
+        $data = $data->map(function ($item) {
+            // dd($item->TrashBank->name);
+            return [
+                'id' => $item->id,
+                // 'username' => $item->username,
+                'full_name' => $item->full_name,
+                'phone' => $item->phone,
+                // ... other user attributes ...
+                'trash_bank' => $item->TrashBank->name ?? "", // Add the trashBank name
+                'is_verified' => $item->is_verified
+            ];
+        });
+        // dd($data);
+        if ($request->ajax()) {
+            return DataTables::of($data)->toJson();
+        }
+        return view('admin.users.nasabah');
+    }
 }
