@@ -3,7 +3,7 @@ import "bootstrap";
 import "datatables.net-buttons-bs4";
 import "datatables.net-responsive-bs4";
 
-const tabLinks = document.querySelectorAll(".nav-link");
+const tabLinks = document.querySelectorAll(".profile-toolbar");
 tabLinks.forEach((link) => {
     link.addEventListener("click", (e) => {
         e.preventDefault(); // Prevent the default link behavior

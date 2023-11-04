@@ -9,6 +9,7 @@ import DataTable from 'datatables.net';
 $(function() {
     const nasabahTable = $('#nasabahTable');
     const route = nasabahTable.data('route');
+    const detailRoute = nasabahTable.data('detail-route')
     $('#nasabahTable').DataTable({
         processing: true,
         serverSide: true,
@@ -54,8 +55,7 @@ $(function() {
                                 Aksi
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Lihat Profil</a>
-                                <a class="dropdown-item" href="#">Edit</a>
+                                <a class="dropdown-item" href="`+detailRoute+`/`+data+`">Lihat & Edit Profil</a>
                                 <a class="dropdown-item delete-button" data-id="`+data+`" href="#">Hapus</a>
                             </div>
                         </div>

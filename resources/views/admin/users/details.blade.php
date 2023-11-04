@@ -12,7 +12,7 @@
                     <div class="card card-primary card-outline">
                         <div class="card-body box-profile">
                             <div class="text-center">
-                                <img class="profile-user-img img-fluid img-circle" src="{{ $user->profile_picture }}"
+                                <img class="profile-user-img img-fluid img-circle" src="{{ $user->full_profile_picture_url }}"
                                     alt="User profile picture">
                             </div>
 
@@ -22,7 +22,7 @@
 
                             <ul class="list-group list-group-unbordered mb-3">
                                 <li class="list-group-item">
-                                    <b>Total Saldo</b> <a class="float-right">{{ $user->balance }}</a>
+                                    <b>Total Saldo</b> <a class="float-right">Rp{{number_format($user->balance,2,',','.') }}</a>
                                 </li>
                                 <li class="list-group-item">
                                     <b>Total Transaksi</b> <a class="float-right">{{ $user->total_transaction }}</a>
@@ -68,11 +68,11 @@
                     <div class="card">
                         <div class="card-header p-2">
                             <ul class="nav nav-pills">
-                                <li class="nav-item"><a class="nav-link active" id="setoran-tab" href="#setoran"
+                                <li class="nav-item"><a class="profile-toolbar nav-link active" id="setoran-tab" href="#setoran"
                                         data-toggle="tab">Setoran Sampah</a></li>
-                                <li class="nav-item"><a class="nav-link" id="transaksi-tab" href="#transaksi"
+                                <li class="nav-item"><a class="profile-toolbar nav-link" id="transaksi-tab" href="#transaksi"
                                         data-toggle="tab">Transaksi</a></li>
-                                <li class="nav-item"><a class="nav-link" id="settings-tab" href="#settings"
+                                <li class="nav-item"><a class="profile-toolbar nav-link" id="settings-tab" href="#settings"
                                         data-toggle="tab">Update Profile</a></li>
                             </ul>
                         </div><!-- /.card-header -->

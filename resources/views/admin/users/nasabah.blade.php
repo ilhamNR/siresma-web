@@ -15,7 +15,7 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                  <table id="nasabahTable" data-route="{{ route('admin.nasabah')}}" class="table table-bordered table-striped">
+                  <table id="nasabahTable" data-detail-route={{route('admin.details', '')}} data-route="{{ route('admin.nasabah')}}" class="table table-bordered table-striped">
                     <thead>
                     <tr>
                       <th>Nama</th>
