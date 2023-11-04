@@ -11,7 +11,7 @@
                 <!-- small box -->
                 <div class="small-box bg-info">
                   <div class="inner">
-                    <h3>253</h3>
+                    <h3>{{$garbageStoreCount}}</h3>
 
                     <p>Jumlah Setoran Sampah</p>
                   </div>
@@ -26,7 +26,7 @@
                 <!-- small box -->
                 <div class="small-box bg-success">
                   <div class="inner">
-                    <h3><sup style="font-size: 20px">Rp</sup>589.500</h3>
+                    <h3><sup style="font-size: 20px">Rp</sup>{{ number_format($adminIncome, 2, ',', '.') }}</h3>
 
                     <p>Jumlah Pendapatan</p>
                   </div>
@@ -41,7 +41,7 @@
                 <!-- small box -->
                 <div class="small-box bg-warning">
                   <div class="inner">
-                    <h3>100</h3>
+                    <h3>{{$userCount}}</h3>
 
                     <p>Jumlah Pengguna</p>
                   </div>

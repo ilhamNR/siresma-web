@@ -14,6 +14,7 @@ use App\Http\Controllers\Public\StatisticController;
 use App\Http\Controllers\Public\ContactController;
 
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,9 +56,9 @@ Route::prefix('fasilitas')->group(function () {
     Route::get('tps3r', [FacilityController::class, 'tps3r'])->name('public.tps3r');
 });
 
-Route::get('contact-us',[ContactController::class, 'index'])->name('public.contactUs');
+Route::get('contact-us', [ContactController::class, 'index'])->name('public.contactUs');
 
-Route::get('chart',[ChartController::class, 'index'])->name('public.chart');
+Route::get('chart', [ChartController::class, 'index'])->name('public.chart');
 
 
 
@@ -66,19 +67,17 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified'
 ])->group(function () {
-    Route::prefix('admin')->group(function(){
-        Route::get('/dashboard', function () {
-            return view('admin.dashboard');
-        })->name('admin.dashboard');
-        Route::prefix('/users')->group(function(){
+    Route::prefix('admin')->group(function () {
+        Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+        Route::prefix('/users')->group(function () {
             Route::get('nasabah', [UserController::class, 'indexNasabah'])->name('admin.nasabah');
-            Route::prefix('details/{id}')->group(function(){
+            Route::get('pengelola', [UserController::class, 'indexPengelola'])->name('admin.pengelola');
+            Route::prefix('details/{id}')->group(function () {
                 Route::get('/', [UserController::class, 'details'])->name('admin.details');
-                Route::get('setoran-data',[UserController::class, 'trashStoreLog'])->name('admin.setoranData');
-                Route::get('transaksi-data',[UserController::class, 'transactionLog'])->name('admin.transaksiData');
+                Route::get('setoran-data', [UserController::class, 'trashStoreLog'])->name('admin.setoranData');
+                Route::get('transaksi-data', [UserController::class, 'transactionLog'])->name('admin.transaksiData');
                 Route::post('/update', [UserController::class, 'updateUser'])->name('admin.updateUser');
             });
         });
     });
-
 });
