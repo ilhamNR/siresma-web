@@ -24,9 +24,11 @@
                       <th>Kategori</th>
                       <th>Berat</th>
                       <th>Kode</th>
+                      <th>Status</th>
                       <th>Pendapatan User</th>
                       <th>Pendapatan Admin</th>
                       <th>Aksi</th>
+                      <th>Unit</th>
                     </tr>
                     </thead>
                   </table>
