@@ -82,9 +82,9 @@ class UserController extends Controller
     {
         $data = AppTransactionLog::where('user_id', $id)->get();
         $data = $data->map(function ($item) {
-            if ($item->type === 'WITHDRAWAL' && $item->is_approved === 1) {
+            if ($item->type === 'WITHDRAW' && $item->is_approved === 1) {
                 $status = "APPROVED";
-            } else if ($item->type === 'WITHDRAWAL' && $item->is_approved === 0) {
+            } else if ($item->type === 'WITHDRAW' && $item->is_approved === 0) {
                 $status = "PENDING";
             } else if ($item->type === 'STORE' && $item->is_approved === 0) {
                 $status = "ACCEPTED";
