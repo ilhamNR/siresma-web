@@ -17,6 +17,7 @@ use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\TrashCategoryController;
 use App\Http\Controllers\Admin\GarbageSavingsDataController;
+use App\Http\Controllers\Admin\IOTController;
 
 /*
 |--------------------------------------------------------------------------
@@ -70,9 +71,13 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::prefix('admin')->group(function () {
+
         Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
-        Route::get('/kategori-sampah', [TrashCategoryController::class, 'index'])->name('admin.kategoriSampah');
-        Route::get('/setoran-sampah', [GarbageSavingsDataController::class, 'index'])->name('admin.setoranSampah');
+        Route::prefix('/sampah')->group(function () {
+            Route::get('/kategori', [TrashCategoryController::class, 'index'])->name('admin.kategoriSampah');
+            Route::get('/setoran', [GarbageSavingsDataController::class, 'index'])->name('admin.setoranSampah');
+            Route::get('/timbangan', [IOTController::class, 'index'])->name('admin.timbanganSampah');
+        });
         Route::prefix('/users')->group(function () {
             Route::get('nasabah', [UserController::class, 'indexNasabah'])->name('admin.nasabah');
             Route::get('pengelola', [UserController::class, 'indexPengelola'])->name('admin.pengelola');
