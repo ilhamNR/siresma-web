@@ -17,6 +17,7 @@ export default defineConfig({
                 'resources/js/admin/trashcategory.js',
                 'resources/css/admin/trashcategory.css',
                 'resources/js/admin/trashstore.js',
+                'resources/js/admin/iot.js',
             ],
             refresh: [
                 ...refreshPaths,
