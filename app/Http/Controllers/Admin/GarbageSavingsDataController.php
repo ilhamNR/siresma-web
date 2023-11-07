@@ -21,9 +21,11 @@ class GarbageSavingsDataController extends Controller
                 'category' => $item->trashCategory->category_name ?? '',
                 'weight' => $item->iot->weight ?? '',
                 'code' => $item->iot->code ?? '',
+                'status' => $item->status ?? '',
                 'admin_income' => $item->admin_balance ?? '',
                 'user_income' => $item->user_balance ?? '',
-                'id' => $item->id
+                'id' => $item->id,
+                'unit' => $item->trashCategory->unit ?? '',
             ];
         });
         if ($request->ajax()) {
