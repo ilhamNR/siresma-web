@@ -26,6 +26,8 @@ class AppIOT extends Model
      */
     public function trashData()
     {
-        return $this->belongsTo(AppGarbageSavingsData::class, 'iot_id');
+        // return $this->belongsTo(AppGarbageSavingsData::class, 'iot_id');
+        return $this->hasOne(AppGarbageSavingsData::class, 'iot_id', 'id');
     }
+
 }
