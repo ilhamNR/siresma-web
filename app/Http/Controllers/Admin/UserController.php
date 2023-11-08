@@ -86,7 +86,7 @@ class UserController extends Controller
                 $status = "APPROVED";
             } else if ($item->type === 'WITHDRAW' && $item->is_approved === 0) {
                 $status = "PENDING";
-            } else if ($item->type === 'STORE' && $item->is_approved === 0) {
+            } else {
                 $status = "ACCEPTED";
             }
             return [
