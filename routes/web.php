@@ -19,6 +19,7 @@ use App\Http\Controllers\Admin\TrashCategoryController;
 use App\Http\Controllers\Admin\GarbageSavingsDataController;
 use App\Http\Controllers\Admin\IOTController;
 use App\Http\Controllers\Admin\IncomingTransactionController;
+use App\Http\Controllers\Admin\OutcomingTransactionController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -80,6 +81,7 @@ Route::middleware([
         });
         Route::prefix('transaksi')->group(function(){
             Route::get('masuk', [IncomingTransactionController::class, 'index'])->name('admin.transaksiMasuk');
+            Route::get('keluar', [OutcomingTransactionController::class, 'index'])->name('admin.transaksiKeluar');
         });
         Route::prefix('/users')->group(function () {
             Route::get('nasabah', [UserController::class, 'indexNasabah'])->name('admin.nasabah');
