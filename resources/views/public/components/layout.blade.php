@@ -6,7 +6,8 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-   		<script src="{{ asset('js/app.js') }}"></script>
+   		{{-- <script src="{{ asset('js/app.js') }}"></script> --}}
+        @vite('resources/js/app.js')
 
 		<title>SIRESMA</title>
 
@@ -52,7 +53,6 @@
 		<!-- Head Libs -->
 		{{-- <script src="vendor/modernizr/modernizr.min.js"></script> --}}
         @vite('resources/css/app.css')
-        @vite('resources/js/app.js')
 	</head>
 	<body>
 
@@ -65,19 +65,19 @@
 		</div>
 
 		<!-- Vendor -->
-		<script src="vendor/plugins/js/plugins.min.js"></script>
+		<script src='{{url('vendor/plugins/js/plugins.min.js')}}'></script>
 
 		<!-- Theme Base, Components and Settings -->
-		<script src="js/theme.js"></script>
+		<script src='{{url('js/theme.js')}}'></script>
 
 		<!-- Current Page Vendor and Views -->
-		<script src="js/views/view.contact.js"></script>
+		<script src='{{url('js/views/view.contact.js')}}'></script>
 
 		<!-- Theme Custom -->
-		<script src="js/custom.js"></script>
+		<script src='{{url('js/custom.js')}}'></script>
 
 		<!-- Theme Initialization Files -->
-		<script src="js/theme.init.js"></script>
+		<script src='{{url('js/theme.init.js')}}'></script>
 
 	</body>
 </html>

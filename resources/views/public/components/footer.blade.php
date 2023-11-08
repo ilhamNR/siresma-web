@@ -19,15 +19,15 @@
                     Email: <a href="mailto:sipsn@menlhk.go.id" class="text-decoration-none">sipsn@menlhk.go.id</a>
                 </p>
             </div>
-            
+
 
             <!-- end box FILTER --> <!-- begin box -->
             <div class="col-7">
-                <img src="img/pemkotsmg.jpg" width="50" height="20" class="img-fluid" alt="Logo pemkot" />
-                <img src="img/bintari.jpg" width="65" height="20" class="img-fluid" alt="Logo pemkot" />
-                <img src="img/tps3r.png" width="70" height="20" class="img-fluid" alt="Logo pemkot" />
-                <img src="img/paragon.png" width="200" height="80" class="img-fluid" alt="Logo pemkot" />
-                <img src="img/kudapan.png" width="65" height="20" class="img-fluid" alt="Logo paragon" />
+                <img src='{{url('img/pemkotsmg.jpg')}}' width="50" height="20" class="img-fluid" alt="Logo pemkot" />
+                <img src='{{url('img/bintari.jpg')}}' width="65" height="20" class="img-fluid" alt="Logo pemkot" />
+                <img src='{{url('img/tps3r.png')}}' width="70" height="20" class="img-fluid" alt="Logo pemkot" />
+                <img src='{{url('img/paragon.png')}}' width="200" height="80" class="img-fluid" alt="Logo pemkot" />
+                <img src='{{url('img/kudapan.png')}}' width="65" height="20" class="img-fluid" alt="Logo paragon" />
             </div>
 
         </div>
