@@ -342,7 +342,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../UI/general.html" class="nav-link">
+                            <a href='{{route('admin.transaksiKeluar')}}' class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Transaksi Keluar</p>
                             </a>
