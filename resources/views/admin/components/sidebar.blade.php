@@ -366,7 +366,40 @@
                         </p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="{{ route('admin.dashboard') }}" class="nav-link">
+                        <i class="nav-icon fas fa-message"></i>
+                        <p>
+                            Pesan
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-header">E-Commerce</li>
+                <li class="nav-item">
+                    <a href="{{ route('admin.dashboard') }}" class="nav-link">
+                        <i class="nav-icon fas fa-shop"></i>
+                        <p>
+                            Produk
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('admin.dashboard') }}" class="nav-link">
+                        <i class="nav-icon fas fa-bag-shopping"></i>
+                        <p>
+                            Pesanan
+                        </p>
+                    </a>
+                </li>
                 <li class="nav-header">Admin Management</li>
+                <li class="nav-item">
+                    <a href="{{ route('admin.dashboard') }}" class="nav-link">
+                        <i class="nav-icon fas fa-user-tie"></i>
+                        <p>
+                            Update Admin Profile
+                        </p>
+                    </a>
+                </li>
                 <li class="nav-item">
                     <a href="{{ route('admin.dashboard') }}" class="nav-link">
                         <i class="nav-icon fas fa-lock"></i>
