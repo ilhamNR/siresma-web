@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\AppGarbageSavingsData;
+use App\Models\AppUser;
 
 class AppTransactionLog extends Model
 {
@@ -20,7 +21,7 @@ class AppTransactionLog extends Model
      */
     public function users()
     {
-        return $this->hasMany('App\Models\AppUser');
+        return $this->hasOne(AppUser::class, 'id','user_id');
     }
 
     public function garbageSavingsData()

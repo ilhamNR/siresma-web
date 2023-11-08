@@ -18,7 +18,7 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\TrashCategoryController;
 use App\Http\Controllers\Admin\GarbageSavingsDataController;
 use App\Http\Controllers\Admin\IOTController;
-
+use App\Http\Controllers\Admin\IncomingTransactionController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -77,6 +77,9 @@ Route::middleware([
             Route::get('/kategori', [TrashCategoryController::class, 'index'])->name('admin.kategoriSampah');
             Route::get('/setoran', [GarbageSavingsDataController::class, 'index'])->name('admin.setoranSampah');
             Route::get('/timbangan', [IOTController::class, 'index'])->name('admin.timbanganSampah');
+        });
+        Route::prefix('transaksi')->group(function(){
+            Route::get('masuk', [IncomingTransactionController::class, 'index'])->name('admin.transaksiMasuk');
         });
         Route::prefix('/users')->group(function () {
             Route::get('nasabah', [UserController::class, 'indexNasabah'])->name('admin.nasabah');
