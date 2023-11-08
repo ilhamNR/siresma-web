@@ -26,6 +26,14 @@
                         <th>Aksi</th>
                     </tr>
                     </thead>
+                    <tfoot>
+                        <tr>
+                            <th colspan="3">Total</th>
+                            <th>Rp{{ number_format($outcome_total, 2, ',', '.') }}</th>
+                            <th colspan="2"></th>
+
+                        </tr>
+                    </tfoot>
                   </table>
                 </div>
                 <!-- /.card-body -->

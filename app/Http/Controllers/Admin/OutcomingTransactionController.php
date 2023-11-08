@@ -29,9 +29,10 @@ class OutcomingTransactionController extends Controller
 
             ];
         });
+        $outcome_total =  $data->sum('amount');
         if ($request->ajax()) {
             return DataTables::of($data)->toJson();
         }
-        return view('admin.transaction.outcoming.index');
+        return view('admin.transaction.outcoming.index', compact('outcome_total'));
     }
 }

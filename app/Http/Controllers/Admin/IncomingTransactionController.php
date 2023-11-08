@@ -24,9 +24,10 @@ class IncomingTransactionController extends Controller
 
             ];
         });
+        $income_total =  $data->sum('amount');
         if ($request->ajax()){
             return DataTables::of($data)->toJson();
         }
-        return view('admin.transaction.incoming.index');
+        return view('admin.transaction.incoming.index', compact('income_total'));
     }
 }
